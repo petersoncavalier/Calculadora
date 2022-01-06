@@ -1,12 +1,12 @@
 namespace calculadoravisual
 {
-    public partial class Form1 : Form
+    public partial class FormCalculadora : Form
     {
         double acumular;
         string operacao;
         double c;
 
-        public Form1()
+        public FormCalculadora()
         {
             InitializeComponent();
             labelAcumular.Text = "";
