@@ -173,70 +173,101 @@ namespace calculadoravisual
         }
         private void buttonPercentual_Click(object sender, EventArgs e)
         {
-            double valor1 = double.Parse(labelResultado.Text);
-            double resultado = (valor1 * acumular) / 100;
-            if (operacao == "+")
+            switch (operacao)
             {
-                acumular += resultado;
-                labelAcumular.Text += resultado.ToString() + "% = ";
-                labelResultado.Text = "0";
-            }
-            else if (operacao == "-")
-            {
-                acumular -= resultado;
-                labelAcumular.Text += resultado.ToString() + "% = ";
-                labelResultado.Text = "0";
-            }
-            else if (operacao == "*")
-            {
-                acumular *= resultado;
-                labelAcumular.Text += resultado.ToString() + "% = ";
-                labelResultado.Text = "0";
-            }
-            else if (operacao == "/")
-            {
-                acumular /= resultado;
-                labelAcumular.Text += resultado.ToString() + "% = ";
-                labelResultado.Text = "0";
+                case "+": psoma(); break;
+                case "-": psubtracao(); break;
+                case "*": pmultiplicacao(); break;
+                case "/": pdivisao(); break;
             }
             labelResultado.Text = acumular.ToString();
         }
+
+        private void psoma()
+        {
+            double valor1 = double.Parse(labelResultado.Text);
+            double resultado = (valor1 * acumular) / 100;
+            acumular += resultado;
+            labelAcumular.Text += resultado.ToString() + "% = ";
+            labelResultado.Text = "0";
+        }
+        private void psubtracao()
+        {
+            double valor1 = double.Parse(labelResultado.Text);
+            double resultado = (valor1 * acumular) / 100;
+            acumular -= resultado;
+            labelAcumular.Text += resultado.ToString() + "% = ";
+            labelResultado.Text = "0";
+        }
+        private void pmultiplicacao()
+        {
+            double valor1 = double.Parse(labelResultado.Text);
+            double resultado = (valor1 * acumular) / 100;
+            acumular *= resultado;
+            labelAcumular.Text += resultado.ToString() + "% = ";
+            labelResultado.Text = "0";
+        }
+        private void pdivisao()
+        {
+            double valor1 = double.Parse(labelResultado.Text);
+            double resultado = (valor1 * acumular) / 100;
+            acumular /= resultado;
+            labelAcumular.Text += resultado.ToString() + "% = ";
+            labelResultado.Text = "0";
+        }
+
+
+
+
+
         private void buttonIgual_Click(object sender, EventArgs e)
         {
-            if (operacao == "+")
+            switch (operacao)
             {
-                acumular = acumular + double.Parse(labelResultado.Text);
-                labelAcumular.Text = " " + labelAcumular.Text + labelResultado.Text + " = ";
-                labelResultado.Text = acumular.ToString();
-                operacao = "";
-                acumular = 0;
+                case "+": soma(); break;
+                case "-": subtacao(); break;
+                case "/": divisao(); break;
+                case "*": multipicacao(); break;
             }
-            else if (operacao == "*")
-            {
-                acumular *= double.Parse(labelResultado.Text);
-                labelAcumular.Text = " " + labelAcumular.Text + labelResultado.Text + " = ";
-                labelResultado.Text = acumular.ToString();
-                operacao = "";
-                acumular = 0;
-            }
-            else if (operacao == "-")
-            {
-                acumular -= double.Parse(labelResultado.Text);
-                labelAcumular.Text = " " + labelAcumular.Text + labelResultado.Text + " = ";
-                labelResultado.Text = acumular.ToString();
-                operacao = "";
-                acumular = 0;
-            }
-            else if (operacao == "/")
-            {
-                acumular /= double.Parse(labelResultado.Text);
-                labelAcumular.Text = " " + labelAcumular.Text + labelResultado.Text + " = ";
-                labelResultado.Text = acumular.ToString();
-                operacao = "";
-                acumular = 0;
-            }
-
         }
+
+        private void soma()
+        {
+            acumular = acumular + double.Parse(labelResultado.Text);
+            labelAcumular.Text = " " + labelAcumular.Text + labelResultado.Text + " = ";
+            labelResultado.Text = acumular.ToString();
+            operacao = "";
+            acumular = 0;
+        }
+        private void subtacao()
+        {
+            acumular -= double.Parse(labelResultado.Text);
+            labelAcumular.Text = " " + labelAcumular.Text + labelResultado.Text + " = ";
+            labelResultado.Text = acumular.ToString();
+            operacao = "";
+            acumular = 0;
+        }
+        private void multipicacao()
+        {
+            acumular *= double.Parse(labelResultado.Text);
+            labelAcumular.Text = " " + labelAcumular.Text + labelResultado.Text + " = ";
+            labelResultado.Text = acumular.ToString();
+            operacao = "";
+            acumular = 0;
+        }
+        private void divisao()
+        {
+            acumular /= double.Parse(labelResultado.Text);
+            labelAcumular.Text = " " + labelAcumular.Text + labelResultado.Text + " = ";
+            labelResultado.Text = acumular.ToString();
+            operacao = "";
+            acumular = 0;
+        }
+
+
+
+
+
 
 
 
@@ -276,14 +307,21 @@ namespace calculadoravisual
         
         private void buttonMaisMenos_Click(object sender, EventArgs e)
         {
-            double maismenos = double.Parse(labelResultado.Text);
-            if (maismenos > 0)
+            if (labelResultado.Text == "")
             {
-                labelResultado.Text = "-" + labelResultado.Text;
-            } 
-            else if (maismenos < 0)
+
+            }
+            else
             {
-                labelResultado.Text = labelResultado.Text.Substring(1);
+                double maismenos = double.Parse(labelResultado.Text);
+                if (maismenos > 0)
+                {
+                    labelResultado.Text = "-" + labelResultado.Text;
+                }
+                else if (maismenos < 0)
+                {
+                    labelResultado.Text = labelResultado.Text.Substring(1);
+                }
             }
         }
 
@@ -336,7 +374,7 @@ namespace calculadoravisual
             c -= double.Parse(labelResultado.Text);
             labelC.Text = c.ToString();
             labelResultado.Text = "";
-            labelAcumular.Text = "";
+            labelAcumular.Text = "0";
             acumular = 0;
             if (c == 0)
             {
@@ -348,7 +386,7 @@ namespace calculadoravisual
             c = c + double.Parse(labelResultado.Text);
             labelC.Text = c.ToString();
             labelResultado.Text = "";
-            labelAcumular.Text = "";
+            labelAcumular.Text = "0";
             acumular = 0;
             if (c == 0)
             {
@@ -382,6 +420,33 @@ namespace calculadoravisual
         private void Form1_Load(object sender, EventArgs e)
         {
 
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        private void buttonMoedas_Click(object sender, EventArgs e)
+        {
+            Comprimento comprimentoForm = new Comprimento();
+            comprimentoForm.Show();
+        }
+
+        private void buttonJurosSimples_Click(object sender, EventArgs e)
+        {
+            FormJurosSimples jurosSimplesForm = new FormJurosSimples();
+            jurosSimplesForm.Show();
         }
     }
 }
