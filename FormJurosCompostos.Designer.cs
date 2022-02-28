@@ -57,7 +57,6 @@
             this.label6 = new System.Windows.Forms.Label();
             this.comboBoxMeses = new System.Windows.Forms.ComboBox();
             this.comboBox2 = new System.Windows.Forms.ComboBox();
-            this.button10 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // buttonApagar
@@ -421,23 +420,12 @@
             this.comboBox2.TabIndex = 56;
             this.comboBox2.SelectedIndexChanged += new System.EventHandler(this.comboBox2_SelectedIndexChanged);
             // 
-            // button10
-            // 
-            this.button10.Location = new System.Drawing.Point(242, 18);
-            this.button10.Name = "button10";
-            this.button10.Size = new System.Drawing.Size(75, 23);
-            this.button10.TabIndex = 57;
-            this.button10.Text = "button10";
-            this.button10.UseVisualStyleBackColor = true;
-            this.button10.Click += new System.EventHandler(this.button10_Click);
-            // 
             // FormJurosCompostos
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(38)))), ((int)(((byte)(38)))));
             this.ClientSize = new System.Drawing.Size(324, 511);
-            this.Controls.Add(this.button10);
             this.Controls.Add(this.comboBox2);
             this.Controls.Add(this.comboBoxMeses);
             this.Controls.Add(this.label6);
@@ -506,6 +494,5 @@
         private Label label6;
         private ComboBox comboBoxMeses;
         private ComboBox comboBox2;
-        private Button button10;
     }
 }
