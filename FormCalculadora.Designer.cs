@@ -62,7 +62,7 @@
             this.labelC = new System.Windows.Forms.Label();
             this.buttonMoedas = new System.Windows.Forms.Button();
             this.buttonJurosSimples = new System.Windows.Forms.Button();
-            this.button10 = new System.Windows.Forms.Button();
+            this.buttonJurosCompostos = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // labelResultado
@@ -211,7 +211,7 @@
             this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button3.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.button3.ForeColor = System.Drawing.Color.White;
-            this.button3.Location = new System.Drawing.Point(163, 395);
+            this.button3.Location = new System.Drawing.Point(164, 395);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(75, 50);
             this.button3.TabIndex = 15;
@@ -253,7 +253,7 @@
             this.buttonMultiplicacao.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.buttonMultiplicacao.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.buttonMultiplicacao.ForeColor = System.Drawing.Color.White;
-            this.buttonMultiplicacao.Location = new System.Drawing.Point(243, 288);
+            this.buttonMultiplicacao.Location = new System.Drawing.Point(242, 288);
             this.buttonMultiplicacao.Name = "buttonMultiplicacao";
             this.buttonMultiplicacao.Size = new System.Drawing.Size(75, 50);
             this.buttonMultiplicacao.TabIndex = 12;
@@ -510,32 +510,39 @@
             // 
             // buttonMoedas
             // 
-            this.buttonMoedas.Location = new System.Drawing.Point(15, 9);
+            this.buttonMoedas.BackColor = System.Drawing.Color.MediumTurquoise;
+            this.buttonMoedas.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.buttonMoedas.Location = new System.Drawing.Point(9, 4);
             this.buttonMoedas.Name = "buttonMoedas";
-            this.buttonMoedas.Size = new System.Drawing.Size(69, 26);
+            this.buttonMoedas.Size = new System.Drawing.Size(90, 25);
             this.buttonMoedas.TabIndex = 35;
-            this.buttonMoedas.Text = "comprimento";
-            this.buttonMoedas.UseVisualStyleBackColor = true;
+            this.buttonMoedas.Text = "Comprimento";
+            this.buttonMoedas.UseVisualStyleBackColor = false;
             this.buttonMoedas.Click += new System.EventHandler(this.buttonMoedas_Click);
             // 
             // buttonJurosSimples
             // 
-            this.buttonJurosSimples.Location = new System.Drawing.Point(90, 11);
+            this.buttonJurosSimples.BackColor = System.Drawing.Color.MediumTurquoise;
+            this.buttonJurosSimples.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.buttonJurosSimples.Location = new System.Drawing.Point(105, 4);
             this.buttonJurosSimples.Name = "buttonJurosSimples";
-            this.buttonJurosSimples.Size = new System.Drawing.Size(97, 23);
+            this.buttonJurosSimples.Size = new System.Drawing.Size(97, 25);
             this.buttonJurosSimples.TabIndex = 36;
             this.buttonJurosSimples.Text = "Juros Simples";
-            this.buttonJurosSimples.UseVisualStyleBackColor = true;
+            this.buttonJurosSimples.UseVisualStyleBackColor = false;
             this.buttonJurosSimples.Click += new System.EventHandler(this.buttonJurosSimples_Click);
             // 
-            // button10
+            // buttonJurosCompostos
             // 
-            this.button10.Location = new System.Drawing.Point(193, 12);
-            this.button10.Name = "button10";
-            this.button10.Size = new System.Drawing.Size(75, 23);
-            this.button10.TabIndex = 37;
-            this.button10.Text = "button10";
-            this.button10.UseVisualStyleBackColor = true;
+            this.buttonJurosCompostos.BackColor = System.Drawing.Color.MediumTurquoise;
+            this.buttonJurosCompostos.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.buttonJurosCompostos.Location = new System.Drawing.Point(208, 4);
+            this.buttonJurosCompostos.Name = "buttonJurosCompostos";
+            this.buttonJurosCompostos.Size = new System.Drawing.Size(110, 25);
+            this.buttonJurosCompostos.TabIndex = 37;
+            this.buttonJurosCompostos.Text = "Juros Compostos";
+            this.buttonJurosCompostos.UseVisualStyleBackColor = false;
+            this.buttonJurosCompostos.Click += new System.EventHandler(this.button10_Click);
             // 
             // FormCalculadora
             // 
@@ -543,7 +550,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(38)))), ((int)(((byte)(38)))));
             this.ClientSize = new System.Drawing.Size(324, 511);
-            this.Controls.Add(this.button10);
+            this.Controls.Add(this.buttonJurosCompostos);
             this.Controls.Add(this.buttonJurosSimples);
             this.Controls.Add(this.buttonMoedas);
             this.Controls.Add(this.labelC);
@@ -621,6 +628,6 @@
         private Label labelC;
         private Button buttonMoedas;
         private Button buttonJurosSimples;
-        private Button button10;
+        private Button buttonJurosCompostos;
     }
 }

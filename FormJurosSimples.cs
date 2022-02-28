@@ -33,7 +33,7 @@ namespace calculadoravisual
             {
                 checkBox2.Checked = false;
                 checkBox3.Checked = false;
-            } 
+            }
         }
 
         private void checkBox2_CheckedChanged(object sender, EventArgs e)
@@ -53,7 +53,6 @@ namespace calculadoravisual
                 checkBox1.Checked = false;
             }
         }
-
 
 
 
@@ -541,6 +540,21 @@ namespace calculadoravisual
             double pc = double.Parse(labelJuros.Text) * (inicial / 100);
             pc = inicial + (pc * double.Parse(labelMeses.Text));
             labelResultado.Text = pc.ToString();
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void labelResultado_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void FormJurosSimples_Load(object sender, EventArgs e)
+        {
 
         }
     }

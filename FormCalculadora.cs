@@ -448,5 +448,11 @@ namespace calculadoravisual
             FormJurosSimples jurosSimplesForm = new FormJurosSimples();
             jurosSimplesForm.Show();
         }
+
+        private void button10_Click(object sender, EventArgs e)
+        {
+            FormJurosCompostos jurosCompostosForm = new FormJurosCompostos();
+            jurosCompostosForm.Show();
+        }
     }
 }
