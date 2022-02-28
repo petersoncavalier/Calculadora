@@ -534,13 +534,16 @@ namespace calculadoravisual
             checkBox3.Checked = true;
         }
 
+
+
+
+
         private void calcular()
         {
             double inicial = double.Parse(labelInicial.Text);
             double pc = double.Parse(labelJuros.Text) * (inicial / 100);
             pc = inicial + (pc * double.Parse(labelMeses.Text));
             labelResultado.Text = pc.ToString();
-
         }
 
         private void label1_Click(object sender, EventArgs e)

@@ -386,7 +386,6 @@ namespace calculadoravisual
             c = c + double.Parse(labelResultado.Text);
             labelC.Text = c.ToString();
             labelResultado.Text = "";
-            labelAcumular.Text = "0";
             acumular = 0;
             if (c == 0)
             {
@@ -394,11 +393,19 @@ namespace calculadoravisual
             }
         }
         private void buttonMS_Click(object sender, EventArgs e)
-        {
-            labelResultado.Text = labelC.Text;
-            labelC.Text = "";
-            c = 0;
-            acumular = 0;
+        {   
+            if (labelC.Text == "")
+            {
+
+            } else
+            {
+                labelResultado.Text = labelC.Text;
+                labelC.Text = "";
+                labelAcumular.Text = "";
+                c = 0;
+                acumular = 0;
+            }
+            
         }
         private void buttonMR_Click(object sender, EventArgs e)
         {
