@@ -543,7 +543,7 @@ namespace calculadoravisual
             double inicial = double.Parse(labelInicial.Text);
             double pc = double.Parse(labelJuros.Text) * (inicial / 100);
             pc = inicial + (pc * double.Parse(labelMeses.Text));
-            labelResultado.Text = pc.ToString();
+            labelResultado.Text = pc.ToString("C2");
         }
 
         private void label1_Click(object sender, EventArgs e)
@@ -557,6 +557,11 @@ namespace calculadoravisual
         }
 
         private void FormJurosSimples_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label6_Click(object sender, EventArgs e)
         {
 
         }

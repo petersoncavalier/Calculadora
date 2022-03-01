@@ -718,13 +718,13 @@ namespace calculadoravisual
             switch (comboBoxMeses.Text)
             {
                 case "ao mês": pc = double.Parse(labelJuros.Text); break;
-                case "ao ano": pc = 12 / double.Parse(labelJuros.Text); break;
+                case "ao ano": pc = double.Parse(labelJuros.Text) / 12; break;
                 default: comboBoxMeses.Text = "meses"; break;
             }
             switch (comboBox2.Text)
             {
                 case "meses": periodo = double.Parse(labelPeriodo.Text); break;
-                case "anos": periodo = 12 * double.Parse(labelPeriodo.Text); break;
+                case "anos": periodo = double.Parse(labelPeriodo.Text) * 12; break;
                 default: comboBox2.Text = "meses"; break;
             }
             
@@ -737,11 +737,16 @@ namespace calculadoravisual
                     acumular += pc * (acumular / 100);
                     acumular += double.Parse(labelMeses.Text);
                 }
-            labelResultado.Text = acumular.ToString();
+            labelResultado.Text = acumular.ToString("C2");
             
         }
 
         private void button10_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label10_Click(object sender, EventArgs e)
         {
 
         }

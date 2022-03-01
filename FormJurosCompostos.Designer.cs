@@ -57,6 +57,9 @@
             this.label6 = new System.Windows.Forms.Label();
             this.comboBoxMeses = new System.Windows.Forms.ComboBox();
             this.comboBox2 = new System.Windows.Forms.ComboBox();
+            this.label7 = new System.Windows.Forms.Label();
+            this.label9 = new System.Windows.Forms.Label();
+            this.label10 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // buttonApagar
@@ -232,7 +235,7 @@
             this.labelInicial.AutoSize = true;
             this.labelInicial.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.labelInicial.ForeColor = System.Drawing.Color.White;
-            this.labelInicial.Location = new System.Drawing.Point(46, 26);
+            this.labelInicial.Location = new System.Drawing.Point(70, 26);
             this.labelInicial.Name = "labelInicial";
             this.labelInicial.Size = new System.Drawing.Size(17, 20);
             this.labelInicial.TabIndex = 40;
@@ -244,7 +247,7 @@
             this.labelMeses.AutoSize = true;
             this.labelMeses.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.labelMeses.ForeColor = System.Drawing.Color.White;
-            this.labelMeses.Location = new System.Drawing.Point(46, 67);
+            this.labelMeses.Location = new System.Drawing.Point(70, 67);
             this.labelMeses.Name = "labelMeses";
             this.labelMeses.Size = new System.Drawing.Size(17, 20);
             this.labelMeses.TabIndex = 41;
@@ -290,7 +293,7 @@
             this.labelResultado.AutoSize = true;
             this.labelResultado.Font = new System.Drawing.Font("Segoe UI Black", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.labelResultado.ForeColor = System.Drawing.Color.White;
-            this.labelResultado.Location = new System.Drawing.Point(46, 216);
+            this.labelResultado.Location = new System.Drawing.Point(70, 216);
             this.labelResultado.Name = "labelResultado";
             this.labelResultado.Size = new System.Drawing.Size(18, 20);
             this.labelResultado.TabIndex = 45;
@@ -398,11 +401,12 @@
             // 
             // comboBoxMeses
             // 
+            this.comboBoxMeses.BackColor = System.Drawing.Color.White;
             this.comboBoxMeses.FormattingEnabled = true;
             this.comboBoxMeses.Items.AddRange(new object[] {
             "ao mês",
             "ao ano"});
-            this.comboBoxMeses.Location = new System.Drawing.Point(217, 98);
+            this.comboBoxMeses.Location = new System.Drawing.Point(217, 93);
             this.comboBoxMeses.Name = "comboBoxMeses";
             this.comboBoxMeses.Size = new System.Drawing.Size(95, 23);
             this.comboBoxMeses.TabIndex = 55;
@@ -410,15 +414,50 @@
             // 
             // comboBox2
             // 
+            this.comboBox2.BackColor = System.Drawing.Color.White;
             this.comboBox2.FormattingEnabled = true;
             this.comboBox2.Items.AddRange(new object[] {
             "meses",
             "anos"});
-            this.comboBox2.Location = new System.Drawing.Point(217, 136);
+            this.comboBox2.Location = new System.Drawing.Point(217, 143);
             this.comboBox2.Name = "comboBox2";
             this.comboBox2.Size = new System.Drawing.Size(95, 23);
             this.comboBox2.TabIndex = 56;
             this.comboBox2.SelectedIndexChanged += new System.EventHandler(this.comboBox2_SelectedIndexChanged);
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label7.ForeColor = System.Drawing.Color.White;
+            this.label7.Location = new System.Drawing.Point(46, 25);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(29, 21);
+            this.label7.TabIndex = 57;
+            this.label7.Text = "R$";
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label9.ForeColor = System.Drawing.Color.White;
+            this.label9.Location = new System.Drawing.Point(46, 67);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(29, 21);
+            this.label9.TabIndex = 59;
+            this.label9.Text = "R$";
+            // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label10.ForeColor = System.Drawing.Color.White;
+            this.label10.Location = new System.Drawing.Point(46, 215);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(29, 21);
+            this.label10.TabIndex = 60;
+            this.label10.Text = "R$";
+            this.label10.Click += new System.EventHandler(this.label10_Click);
             // 
             // FormJurosCompostos
             // 
@@ -426,6 +465,12 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(38)))), ((int)(((byte)(38)))));
             this.ClientSize = new System.Drawing.Size(324, 511);
+            this.Controls.Add(this.labelResultado);
+            this.Controls.Add(this.labelMeses);
+            this.Controls.Add(this.label10);
+            this.Controls.Add(this.label9);
+            this.Controls.Add(this.labelInicial);
+            this.Controls.Add(this.label7);
             this.Controls.Add(this.comboBox2);
             this.Controls.Add(this.comboBoxMeses);
             this.Controls.Add(this.label6);
@@ -437,12 +482,9 @@
             this.Controls.Add(this.checkBox4);
             this.Controls.Add(this.checkBox3);
             this.Controls.Add(this.checkBox2);
-            this.Controls.Add(this.labelResultado);
             this.Controls.Add(this.checkBox1);
             this.Controls.Add(this.labelPeriodo);
             this.Controls.Add(this.labelJuros);
-            this.Controls.Add(this.labelMeses);
-            this.Controls.Add(this.labelInicial);
             this.Controls.Add(this.buttonApagar);
             this.Controls.Add(this.buttonVirgula);
             this.Controls.Add(this.button0);
@@ -456,7 +498,7 @@
             this.Controls.Add(this.button8);
             this.Controls.Add(this.button7);
             this.Name = "FormJurosCompostos";
-            this.Text = "FormJurosCompostos";
+            this.Text = "Calculadora de Juros Compostos";
             this.Load += new System.EventHandler(this.FormJurosCompostos_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -494,5 +536,8 @@
         private Label label6;
         private ComboBox comboBoxMeses;
         private ComboBox comboBox2;
+        private Label label7;
+        private Label label9;
+        private Label label10;
     }
 }

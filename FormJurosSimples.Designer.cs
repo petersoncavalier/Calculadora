@@ -52,6 +52,8 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
+            this.label9 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // button3
@@ -245,7 +247,7 @@
             // checkBox3
             // 
             this.checkBox3.AutoSize = true;
-            this.checkBox3.Location = new System.Drawing.Point(20, 130);
+            this.checkBox3.Location = new System.Drawing.Point(20, 131);
             this.checkBox3.Name = "checkBox3";
             this.checkBox3.Size = new System.Drawing.Size(15, 14);
             this.checkBox3.TabIndex = 30;
@@ -256,7 +258,7 @@
             // 
             this.labelInicial.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.labelInicial.ForeColor = System.Drawing.Color.White;
-            this.labelInicial.Location = new System.Drawing.Point(40, 32);
+            this.labelInicial.Location = new System.Drawing.Point(65, 33);
             this.labelInicial.Name = "labelInicial";
             this.labelInicial.Size = new System.Drawing.Size(100, 35);
             this.labelInicial.TabIndex = 31;
@@ -280,7 +282,7 @@
             // 
             this.labelMeses.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.labelMeses.ForeColor = System.Drawing.Color.White;
-            this.labelMeses.Location = new System.Drawing.Point(40, 136);
+            this.labelMeses.Location = new System.Drawing.Point(40, 137);
             this.labelMeses.Name = "labelMeses";
             this.labelMeses.Size = new System.Drawing.Size(100, 24);
             this.labelMeses.TabIndex = 33;
@@ -292,7 +294,7 @@
             // 
             this.labelResultado.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.labelResultado.ForeColor = System.Drawing.Color.White;
-            this.labelResultado.Location = new System.Drawing.Point(40, 207);
+            this.labelResultado.Location = new System.Drawing.Point(65, 205);
             this.labelResultado.Name = "labelResultado";
             this.labelResultado.Size = new System.Drawing.Size(100, 23);
             this.labelResultado.TabIndex = 34;
@@ -317,7 +319,7 @@
             this.label2.ForeColor = System.Drawing.Color.White;
             this.label2.Location = new System.Drawing.Point(40, 66);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(134, 25);
+            this.label2.Size = new System.Drawing.Size(132, 25);
             this.label2.TabIndex = 36;
             this.label2.Text = "Taxa de Juros (%)";
             // 
@@ -335,7 +337,7 @@
             // 
             this.label4.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.label4.ForeColor = System.Drawing.Color.White;
-            this.label4.Location = new System.Drawing.Point(40, 182);
+            this.label4.Location = new System.Drawing.Point(40, 180);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(89, 25);
             this.label4.TabIndex = 38;
@@ -346,11 +348,34 @@
             this.label5.BackColor = System.Drawing.Color.Transparent;
             this.label5.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.label5.ForeColor = System.Drawing.Color.MediumTurquoise;
-            this.label5.Location = new System.Drawing.Point(12, 155);
+            this.label5.Location = new System.Drawing.Point(12, 151);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(300, 22);
             this.label5.TabIndex = 39;
             this.label5.Text = "_________________________________________";
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label6.ForeColor = System.Drawing.Color.White;
+            this.label6.Location = new System.Drawing.Point(41, 40);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(29, 21);
+            this.label6.TabIndex = 40;
+            this.label6.Text = "R$";
+            this.label6.Click += new System.EventHandler(this.label6_Click);
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label9.ForeColor = System.Drawing.Color.White;
+            this.label9.Location = new System.Drawing.Point(41, 206);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(29, 21);
+            this.label9.TabIndex = 43;
+            this.label9.Text = "R$";
             // 
             // FormJurosSimples
             // 
@@ -358,15 +383,14 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(38)))), ((int)(((byte)(38)))));
             this.ClientSize = new System.Drawing.Size(324, 511);
-            this.Controls.Add(this.label5);
+            this.Controls.Add(this.labelResultado);
+            this.Controls.Add(this.label9);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.labelResultado);
             this.Controls.Add(this.labelMeses);
             this.Controls.Add(this.labelJuros);
-            this.Controls.Add(this.labelInicial);
             this.Controls.Add(this.checkBox3);
             this.Controls.Add(this.checkBox2);
             this.Controls.Add(this.checkBox1);
@@ -382,8 +406,11 @@
             this.Controls.Add(this.button9);
             this.Controls.Add(this.button8);
             this.Controls.Add(this.button7);
+            this.Controls.Add(this.labelInicial);
+            this.Controls.Add(this.label6);
+            this.Controls.Add(this.label5);
             this.Name = "FormJurosSimples";
-            this.Text = "FormJurosSimples";
+            this.Text = "Calculadora de Juros";
             this.Load += new System.EventHandler(this.FormJurosSimples_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -416,5 +443,7 @@
         private Label label3;
         private Label label4;
         private Label label5;
+        private Label label6;
+        private Label label9;
     }
 }

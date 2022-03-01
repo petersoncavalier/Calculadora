@@ -14,10 +14,13 @@ namespace calculadoravisual
     {
         double acumular = 0;
         bool att;
+       
 
         public Comprimento()
         {
             InitializeComponent();
+            comboBox1.Text = "Centimetros";
+            comboBox2.Text = "Metros";
         }
 
         private void button0_Click(object sender, EventArgs e)
@@ -196,113 +199,119 @@ namespace calculadoravisual
 
         private void recalcular() 
         {
-            if (comboBox1.Text == "Milimetros")
+            switch (comboBox1.Text) 
             {
-                if (comboBox2.Text == "Milimetros")
-                {
-                    acumular = double.Parse(labelEntrada.Text);
-                    labelSaida.Text = acumular.ToString();
-                }
-                if (comboBox2.Text == "Centimetros")
-                {
-                    acumular = double.Parse(labelEntrada.Text);
-                    acumular = acumular / 10;
-                    labelSaida.Text = acumular.ToString();
-                }
-                if (comboBox2.Text == "Metros")
-                {
-                    acumular = double.Parse(labelEntrada.Text);
-                    acumular = acumular / 1000;
-                    labelSaida.Text = acumular.ToString();
-                }
-                if (comboBox2.Text == "Quilometros")
-                {
-                    acumular = double.Parse(labelEntrada.Text);
-                    acumular = acumular / 100000000;
-                    labelSaida.Text = acumular.ToString();
-                }
-            }
+                case "Milimetros":
+                    switch (comboBox2.Text)
+                    {
+                        case "Milimetros":
+                            acumular = double.Parse(labelEntrada.Text);
+                            labelSaida.Text = acumular.ToString();
+                            break;
+                        case "Centimetros":
+                            acumular = double.Parse(labelEntrada.Text);
+                            acumular = acumular / 10;
+                            labelSaida.Text = acumular.ToString();
+                            break;
+                        case "Metros":
 
-            if (comboBox1.Text == "Centimetros")
-            {
-                if (comboBox2.Text == "Milimetros")
-                {
-                    acumular = double.Parse(labelEntrada.Text);
-                    acumular = acumular * 10;
-                    labelSaida.Text = acumular.ToString();
-                }
-                if (comboBox2.Text == "Centimetros")
-                {
-                    acumular = double.Parse(labelEntrada.Text);
-                    labelSaida.Text = acumular.ToString();
-                }
-                if (comboBox2.Text == "Metros")
-                {
-                    acumular = double.Parse(labelEntrada.Text);
-                    acumular = acumular / 100;
-                    labelSaida.Text = acumular.ToString();
-                }
-                if (comboBox2.Text == "Quilometros")
-                {
-                    acumular = double.Parse(labelEntrada.Text);
-                    acumular = acumular / 100000;
-                    labelSaida.Text = acumular.ToString();
-                }
-            }
+                            acumular = double.Parse(labelEntrada.Text);
+                            acumular = acumular / 1000;
+                            labelSaida.Text = acumular.ToString();
+                            break;
+                        case "Quilometros":
 
-            if (comboBox1.Text == "Metros")
-            {
-                if (comboBox2.Text == "Milimetros")
-                {
-                    acumular = double.Parse(labelEntrada.Text);
-                    acumular = acumular * 1000;
-                    labelSaida.Text = acumular.ToString();
-                }
-                if (comboBox2.Text == "Centimetros")
-                {
-                    acumular = double.Parse(labelEntrada.Text);
-                    acumular = acumular * 100;
-                    labelSaida.Text = acumular.ToString();
-                }
-                if (comboBox2.Text == "Metros")
-                {
-                    acumular = double.Parse(labelEntrada.Text);
-                    labelSaida.Text = acumular.ToString();
-                }
-                if (comboBox2.Text == "Quilometros")
-                {
-                    acumular = double.Parse(labelEntrada.Text);
-                    acumular = acumular / 1000;
-                    labelSaida.Text = acumular.ToString();
-                }
-            }
+                            acumular = double.Parse(labelEntrada.Text);
+                            acumular = acumular / 100000000;
+                            labelSaida.Text = acumular.ToString();
+                            break;
+                    }
+                    break;
 
-            if (comboBox1.Text == "Quilometros")
-            {
-                if (comboBox2.Text == "Milimetros")
-                {
-                    acumular = double.Parse(labelEntrada.Text);
-                    acumular = acumular * 1000000;
-                    labelSaida.Text = acumular.ToString();
-                }
-                if (comboBox2.Text == "Centimetros")
-                {
-                    acumular = double.Parse(labelEntrada.Text);
-                    acumular = acumular * 100000;
-                    labelSaida.Text = acumular.ToString();
-                }
-                if (comboBox2.Text == "Metros")
-                {
-                    acumular = double.Parse(labelEntrada.Text);
-                    acumular = acumular * 1000;
-                    labelSaida.Text = acumular.ToString();
-                }
-                if (comboBox2.Text == "Quilometros")
-                {
-                    acumular = double.Parse(labelEntrada.Text);
-                    labelSaida.Text = acumular.ToString();
-                }
+                case "Centimetros":
+                    switch (comboBox2.Text)
+                    {
+                        case "Milimetros":
+                            acumular = double.Parse(labelEntrada.Text);
+                            acumular = acumular * 10;
+                            labelSaida.Text = acumular.ToString();
+                            break;
 
+                        case "Centimetros":
+                            acumular = double.Parse(labelEntrada.Text);
+                            labelSaida.Text = acumular.ToString();
+                            break;
+
+                        case "Metros":
+                            acumular = double.Parse(labelEntrada.Text);
+                            acumular = acumular / 100;
+                            labelSaida.Text = acumular.ToString();
+                            break;
+
+                        case "Quilometros":
+                            acumular = double.Parse(labelEntrada.Text);
+                            acumular = acumular / 100000;
+                            labelSaida.Text = acumular.ToString();
+                            break;
+                    }
+                    break;
+
+                case "Metros":
+                    switch (comboBox2.Text)
+                    {
+                        case "Milimetros":
+                            acumular = double.Parse(labelEntrada.Text);
+                            acumular = acumular * 1000;
+                            labelSaida.Text = acumular.ToString();
+                            break;
+
+                        case "Centimetros":
+                            acumular = double.Parse(labelEntrada.Text);
+                            acumular = acumular * 100;
+                            labelSaida.Text = acumular.ToString();
+                            break;
+
+                        case "Metros":
+                            acumular = double.Parse(labelEntrada.Text);
+                            labelSaida.Text = acumular.ToString();
+                            break;
+
+                        case "Quilometros":
+                            acumular = double.Parse(labelEntrada.Text);
+                            acumular = acumular / 1000;
+                            labelSaida.Text = acumular.ToString();
+                            break;
+                    }
+                    break;
+
+                case "Quilometros":
+                    switch (comboBox2.Text)
+                    {
+                        case "Milimetros":
+                            acumular = double.Parse(labelEntrada.Text);
+                            acumular = acumular * 1000000;
+                            labelSaida.Text = acumular.ToString();
+                            break;
+
+                        case "Centimetros":
+                            acumular = double.Parse(labelEntrada.Text);
+                            acumular = acumular * 100000;
+                            labelSaida.Text = acumular.ToString();
+                            break;
+
+                        case "Metros":
+                            acumular = double.Parse(labelEntrada.Text);
+                            acumular = acumular * 1000;
+                            labelSaida.Text = acumular.ToString();
+                            break;
+
+                        case "Quilometros":
+                            acumular = double.Parse(labelEntrada.Text);
+                            labelSaida.Text = acumular.ToString();
+                            break;
+
+                    }
+                    break;
             }
         }
     }
