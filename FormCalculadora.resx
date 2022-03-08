@@ -57,738 +57,19 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="&gt;&gt;button0.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="button7.TabIndex" type="System.Int32, mscorlib">
-    <value>5</value>
-  </data>
-  <data name="$this.Text" xml:space="preserve">
-    <value>Calculadora</value>
-  </data>
-  <data name="&gt;&gt;button0.ZOrder" xml:space="preserve">
-    <value>16</value>
-  </data>
-  <data name="&gt;&gt;buttonAdicao.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;buttonMR.ZOrder" xml:space="preserve">
-    <value>10</value>
-  </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="button2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>86, 395</value>
-  </data>
-  <data name="buttonVirgula.TabIndex" type="System.Int32, mscorlib">
-    <value>19</value>
-  </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="buttonJurosCompostos.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>Flat</value>
-  </data>
-  <data name="buttonJurosSimples.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>Flat</value>
-  </data>
-  <data name="buttonVirgula.Text" xml:space="preserve">
-    <value>,</value>
-  </data>
-  <data name="buttonMMenos.Text" xml:space="preserve">
-    <value>M-</value>
-  </data>
-  <data name="buttonMoedas.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>Flat</value>
-  </data>
-  <data name="button3.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>Popup</value>
-  </data>
-  <data name="&gt;&gt;buttonMC.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;buttonC.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="buttonApagar.Size" type="System.Drawing.Size, System.Drawing">
-    <value>75, 50</value>
-  </data>
-  <data name="&gt;&gt;buttonVirgula.Name" xml:space="preserve">
-    <value>buttonVirgula</value>
-  </data>
-  <data name="&gt;&gt;labelC.Name" xml:space="preserve">
-    <value>labelC</value>
-  </data>
-  <data name="button6.Text" xml:space="preserve">
-    <value>6</value>
-  </data>
-  <data name="&gt;&gt;buttonCe.ZOrder" xml:space="preserve">
-    <value>32</value>
-  </data>
-  <data name="&gt;&gt;buttonJurosCompostos.Name" xml:space="preserve">
-    <value>buttonJurosCompostos</value>
-  </data>
-  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
-    <value>7, 15</value>
-  </data>
-  <data name="button0.Size" type="System.Drawing.Size, System.Drawing">
-    <value>75, 50</value>
-  </data>
-  <data name="&gt;&gt;buttonMMenos.Name" xml:space="preserve">
-    <value>buttonMMenos</value>
-  </data>
-  <data name="button0.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI, 15pt, style=Bold</value>
-  </data>
-  <data name="buttonMultiplicacao.TabIndex" type="System.Int32, mscorlib">
-    <value>12</value>
-  </data>
-  <data name="labelResultado.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="button1X.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI, 15pt, style=Bold</value>
-  </data>
-  <data name="&gt;&gt;button2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;buttonX2.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="buttonPercentual.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;buttonC.Name" xml:space="preserve">
-    <value>buttonC</value>
-  </data>
-  <data name="&gt;&gt;button1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="labelResultado.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 32pt, style=Bold</value>
   </data>
   <data name="labelResultado.Location" type="System.Drawing.Point, System.Drawing">
     <value>9, 72</value>
   </data>
-  <data name="buttonMoedas.TabIndex" type="System.Int32, mscorlib">
-    <value>35</value>
-  </data>
-  <data name="&gt;&gt;button0.Name" xml:space="preserve">
-    <value>button0</value>
-  </data>
-  <data name="&gt;&gt;button9.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;button6.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="buttoMMais.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>Popup</value>
-  </data>
-  <data name="labelResultado.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI, 32pt, style=Bold</value>
-  </data>
-  <data name="&gt;&gt;buttonMR.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="buttonMS.TabIndex" type="System.Int32, mscorlib">
-    <value>29</value>
-  </data>
-  <data name="button6.Size" type="System.Drawing.Size, System.Drawing">
-    <value>75, 50</value>
-  </data>
-  <data name="&gt;&gt;buttonVirgula.ZOrder" xml:space="preserve">
-    <value>15</value>
-  </data>
-  <data name="button8.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>Popup</value>
-  </data>
-  <data name="button5.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>Popup</value>
-  </data>
-  <data name="buttonCe.Location" type="System.Drawing.Point, System.Drawing">
-    <value>86, 181</value>
-  </data>
-  <data name="labelC.Location" type="System.Drawing.Point, System.Drawing">
-    <value>22, 37</value>
-  </data>
-  <data name="buttonJurosSimples.Text" xml:space="preserve">
-    <value>Juros Simples</value>
-  </data>
-  <data name="button2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>75, 50</value>
-  </data>
-  <data name="&gt;&gt;buttonSubtracao.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="button7.Text" xml:space="preserve">
-    <value>7</value>
-  </data>
-  <data name="buttonMMenos.Size" type="System.Drawing.Size, System.Drawing">
-    <value>45, 20</value>
-  </data>
-  <data name="labelAcumular.Text" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="button2vx.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI, 15pt, style=Bold</value>
-  </data>
-  <data name="buttonPercentual.Text" xml:space="preserve">
-    <value>%</value>
-  </data>
-  <data name="&gt;&gt;button3.Name" xml:space="preserve">
-    <value>button3</value>
-  </data>
-  <data name="buttonMaisMenos.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI, 15pt, style=Bold</value>
-  </data>
-  <data name="buttonSubtracao.Text" xml:space="preserve">
-    <value>-</value>
-  </data>
-  <data name="button2.TabIndex" type="System.Int32, mscorlib">
-    <value>14</value>
-  </data>
-  <data name="buttonDivisao.Size" type="System.Drawing.Size, System.Drawing">
-    <value>75, 50</value>
-  </data>
-  <data name="buttonAdicao.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI, 15pt, style=Bold</value>
-  </data>
-  <data name="&gt;&gt;buttonApagar.Name" xml:space="preserve">
-    <value>buttonApagar</value>
-  </data>
-  <data name="buttonApagar.Text" xml:space="preserve">
-    <value>&lt;</value>
-  </data>
-  <data name="&gt;&gt;buttonApagar.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;button6.Name" xml:space="preserve">
-    <value>button6</value>
-  </data>
-  <data name="buttonPercentual.Location" type="System.Drawing.Point, System.Drawing">
-    <value>164, 181</value>
-  </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="buttonC.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>0, 0, 0, 0</value>
-  </data>
-  <data name="buttonVirgula.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI, 15pt, style=Bold</value>
-  </data>
-  <data name="buttonIgual.Size" type="System.Drawing.Size, System.Drawing">
-    <value>75, 50</value>
-  </data>
-  <data name="&gt;&gt;labelC.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="buttonMR.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI, 9pt, style=Bold</value>
-  </data>
-  <data name="buttonX2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>86, 234</value>
-  </data>
-  <data name="&gt;&gt;buttonIgual.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;buttonC.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="buttonX2.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>Popup</value>
-  </data>
-  <data name="buttonSubtracao.TabIndex" type="System.Int32, mscorlib">
-    <value>4</value>
-  </data>
-  <data name="buttonIgual.TabIndex" type="System.Int32, mscorlib">
-    <value>20</value>
-  </data>
-  <data name="buttonMultiplicacao.Size" type="System.Drawing.Size, System.Drawing">
-    <value>75, 50</value>
-  </data>
-  <data name="button6.TabIndex" type="System.Int32, mscorlib">
-    <value>11</value>
-  </data>
-  <data name="buttonMaisMenos.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>Popup</value>
-  </data>
-  <data name="&gt;&gt;button5.Name" xml:space="preserve">
-    <value>button5</value>
-  </data>
-  <data name="&gt;&gt;buttonPercentual.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;button5.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="buttonIgual.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>Popup</value>
-  </data>
-  <data name="&gt;&gt;buttonSubtracao.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;button1X.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;button9.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;button1X.ZOrder" xml:space="preserve">
-    <value>7</value>
-  </data>
-  <data name="&gt;&gt;button2.Name" xml:space="preserve">
-    <value>button2</value>
-  </data>
-  <data name="button2vx.Size" type="System.Drawing.Size, System.Drawing">
-    <value>75, 50</value>
-  </data>
-  <data name="&gt;&gt;buttonMaisMenos.Name" xml:space="preserve">
-    <value>buttonMaisMenos</value>
-  </data>
-  <data name="&gt;&gt;button7.Name" xml:space="preserve">
-    <value>button7</value>
-  </data>
-  <data name="&gt;&gt;buttonCe.Name" xml:space="preserve">
-    <value>buttonCe</value>
-  </data>
-  <data name="buttonC.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
-  </data>
-  <data name="&gt;&gt;buttonVirgula.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="buttonMMenos.TabIndex" type="System.Int32, mscorlib">
-    <value>28</value>
-  </data>
-  <data name="button7.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>Popup</value>
-  </data>
-  <data name="&gt;&gt;buttoMMais.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;buttonMaisMenos.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="button2vx.Text" xml:space="preserve">
-    <value>²Vx</value>
-  </data>
-  <data name="&gt;&gt;buttonJurosSimples.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="button1X.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>Popup</value>
-  </data>
-  <data name="&gt;&gt;buttonMaisMenos.ZOrder" xml:space="preserve">
-    <value>17</value>
-  </data>
-  <data name="&gt;&gt;button4.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="buttonApagar.Location" type="System.Drawing.Point, System.Drawing">
-    <value>242, 181</value>
-  </data>
-  <data name="&gt;&gt;buttonIgual.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="button5.Size" type="System.Drawing.Size, System.Drawing">
-    <value>75, 50</value>
-  </data>
-  <data name="buttonMultiplicacao.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI, 15pt, style=Bold</value>
-  </data>
-  <data name="button1X.Text" xml:space="preserve">
-    <value>¹/x</value>
-  </data>
-  <data name="button4.TabIndex" type="System.Int32, mscorlib">
-    <value>9</value>
-  </data>
-  <data name="buttonIgual.Location" type="System.Drawing.Point, System.Drawing">
-    <value>242, 449</value>
-  </data>
-  <data name="buttonMoedas.Size" type="System.Drawing.Size, System.Drawing">
-    <value>102, 25</value>
-  </data>
-  <data name="buttonMR.TabIndex" type="System.Int32, mscorlib">
-    <value>27</value>
-  </data>
-  <data name="button3.TabIndex" type="System.Int32, mscorlib">
-    <value>15</value>
-  </data>
-  <data name="button0.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>Popup</value>
-  </data>
-  <data name="buttonMS.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI, 9pt, style=Bold</value>
-  </data>
-  <data name="buttonJurosCompostos.Text" xml:space="preserve">
-    <value>Juros Compostos</value>
-  </data>
-  <data name="button1X.TabIndex" type="System.Int32, mscorlib">
-    <value>30</value>
-  </data>
-  <data name="&gt;&gt;buttonCe.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="button9.TabIndex" type="System.Int32, mscorlib">
-    <value>7</value>
-  </data>
-  <data name="button1X.Location" type="System.Drawing.Point, System.Drawing">
-    <value>9, 234</value>
-  </data>
-  <data name="&gt;&gt;button3.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;buttonAdicao.ZOrder" xml:space="preserve">
-    <value>18</value>
-  </data>
-  <data name="buttonCe.Text" xml:space="preserve">
-    <value>CE</value>
-  </data>
-  <data name="&gt;&gt;labelResultado.Name" xml:space="preserve">
-    <value>labelResultado</value>
-  </data>
-  <data name="&gt;&gt;buttonMMenos.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="buttonPercentual.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>Popup</value>
-  </data>
-  <data name="buttonMC.Text" xml:space="preserve">
-    <value>MC</value>
-  </data>
-  <data name="&gt;&gt;buttonDivisao.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="buttonMMenos.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI, 9pt, style=Bold</value>
-  </data>
-  <data name="buttonMaisMenos.Text" xml:space="preserve">
-    <value>+/-</value>
-  </data>
-  <data name="&gt;&gt;buttonJurosSimples.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;buttonJurosSimples.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="button7.Location" type="System.Drawing.Point, System.Drawing">
-    <value>9, 288</value>
-  </data>
-  <data name="buttonMS.Location" type="System.Drawing.Point, System.Drawing">
-    <value>267, 155</value>
-  </data>
-  <data name="buttonMoedas.Location" type="System.Drawing.Point, System.Drawing">
-    <value>7, 4</value>
-  </data>
-  <data name="&gt;&gt;buttonIgual.ZOrder" xml:space="preserve">
-    <value>14</value>
-  </data>
-  <data name="&gt;&gt;buttonDivisao.Name" xml:space="preserve">
-    <value>buttonDivisao</value>
-  </data>
-  <data name="buttoMMais.TabIndex" type="System.Int32, mscorlib">
-    <value>33</value>
-  </data>
-  <data name="&gt;&gt;button7.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="buttonCe.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="buttonMC.TabIndex" type="System.Int32, mscorlib">
-    <value>26</value>
-  </data>
-  <data name="button8.Location" type="System.Drawing.Point, System.Drawing">
-    <value>86, 288</value>
-  </data>
-  <data name="labelAcumular.TabIndex" type="System.Int32, mscorlib">
-    <value>25</value>
-  </data>
-  <data name="&gt;&gt;buttonJurosCompostos.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="button7.Size" type="System.Drawing.Size, System.Drawing">
-    <value>75, 50</value>
-  </data>
-  <data name="labelC.TabIndex" type="System.Int32, mscorlib">
-    <value>34</value>
-  </data>
   <data name="labelResultado.Size" type="System.Drawing.Size, System.Drawing">
     <value>307, 80</value>
   </data>
-  <data name="buttonMS.Size" type="System.Drawing.Size, System.Drawing">
-    <value>45, 20</value>
-  </data>
-  <data name="&gt;&gt;buttonPercentual.Name" xml:space="preserve">
-    <value>buttonPercentual</value>
-  </data>
-  <data name="buttonMultiplicacao.Text" xml:space="preserve">
-    <value>X</value>
-  </data>
-  <data name="button1X.Size" type="System.Drawing.Size, System.Drawing">
-    <value>75, 50</value>
-  </data>
-  <data name="button2vx.TabIndex" type="System.Int32, mscorlib">
-    <value>31</value>
-  </data>
-  <data name="buttonMR.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>Popup</value>
-  </data>
-  <data name="buttonJurosSimples.Size" type="System.Drawing.Size, System.Drawing">
-    <value>97, 25</value>
-  </data>
-  <data name="&gt;&gt;button2.ZOrder" xml:space="preserve">
-    <value>20</value>
-  </data>
-  <data name="buttonDivisao.TabIndex" type="System.Int32, mscorlib">
-    <value>8</value>
-  </data>
-  <data name="&gt;&gt;buttonAdicao.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;$this.Name" xml:space="preserve">
-    <value>FormCalculadora</value>
-  </data>
-  <data name="button0.TabIndex" type="System.Int32, mscorlib">
-    <value>18</value>
-  </data>
-  <data name="buttonMultiplicacao.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>Popup</value>
-  </data>
-  <data name="buttonX2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>75, 50</value>
-  </data>
-  <data name="buttoMMais.Location" type="System.Drawing.Point, System.Drawing">
-    <value>216, 155</value>
-  </data>
-  <data name="button4.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>Popup</value>
-  </data>
-  <data name="buttonX2.TabIndex" type="System.Int32, mscorlib">
-    <value>32</value>
-  </data>
-  <data name="buttonVirgula.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>Popup</value>
-  </data>
-  <data name="labelAcumular.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI, 13pt</value>
-  </data>
-  <data name="buttonMS.Text" xml:space="preserve">
-    <value>MS</value>
-  </data>
-  <data name="&gt;&gt;buttonVirgula.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;button8.Name" xml:space="preserve">
-    <value>button8</value>
-  </data>
-  <data name="buttonX2.Text" xml:space="preserve">
-    <value>x²</value>
-  </data>
-  <data name="&gt;&gt;buttonDivisao.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;buttonMoedas.Name" xml:space="preserve">
-    <value>buttonMoedas</value>
-  </data>
-  <data name="buttonMC.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI, 9pt, style=Bold</value>
-  </data>
-  <data name="&gt;&gt;button8.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="buttoMMais.Size" type="System.Drawing.Size, System.Drawing">
-    <value>45, 20</value>
-  </data>
-  <data name="buttonApagar.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>Popup</value>
-  </data>
-  <data name="&gt;&gt;labelC.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="labelC.Text" xml:space="preserve">
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="labelResultado.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
-  </data>
-  <data name="&gt;&gt;buttonX2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;buttoMMais.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="&gt;&gt;buttonJurosCompostos.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="buttonApagar.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI, 15pt, style=Bold</value>
-  </data>
-  <data name="&gt;&gt;button0.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="buttonJurosCompostos.Location" type="System.Drawing.Point, System.Drawing">
-    <value>208, 4</value>
-  </data>
-  <data name="&gt;&gt;labelAcumular.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="button1.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI, 15pt, style=Bold</value>
-  </data>
-  <data name="buttonAdicao.Text" xml:space="preserve">
-    <value>+</value>
-  </data>
-  <data name="buttonAdicao.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>Popup</value>
-  </data>
-  <data name="buttonMR.Location" type="System.Drawing.Point, System.Drawing">
-    <value>15, 155</value>
-  </data>
-  <data name="buttonCe.Size" type="System.Drawing.Size, System.Drawing">
-    <value>75, 50</value>
-  </data>
-  <data name="&gt;&gt;buttoMMais.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;button4.ZOrder" xml:space="preserve">
-    <value>25</value>
-  </data>
-  <data name="&gt;&gt;labelAcumular.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="buttonVirgula.Size" type="System.Drawing.Size, System.Drawing">
-    <value>75, 50</value>
-  </data>
-  <data name="buttonSubtracao.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI, 15pt, style=Bold</value>
-  </data>
-  <data name="&gt;&gt;button3.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;buttonJurosSimples.Name" xml:space="preserve">
-    <value>buttonJurosSimples</value>
-  </data>
-  <data name="button8.Text" xml:space="preserve">
-    <value>8</value>
-  </data>
-  <data name="buttonMaisMenos.Size" type="System.Drawing.Size, System.Drawing">
-    <value>75, 50</value>
-  </data>
-  <data name="&gt;&gt;button3.ZOrder" xml:space="preserve">
-    <value>19</value>
-  </data>
-  <data name="&gt;&gt;buttonMS.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;buttonC.ZOrder" xml:space="preserve">
-    <value>31</value>
-  </data>
-  <data name="&gt;&gt;button2vx.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="buttoMMais.Text" xml:space="preserve">
-    <value>M+</value>
-  </data>
-  <data name="&gt;&gt;buttonMMenos.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;buttonMR.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;buttonApagar.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;buttonMS.Name" xml:space="preserve">
-    <value>buttonMS</value>
-  </data>
-  <data name="&gt;&gt;$this.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Form, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="buttonCe.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI, 15pt, style=Bold</value>
-  </data>
-  <data name="&gt;&gt;buttonMR.Name" xml:space="preserve">
-    <value>buttonMR</value>
-  </data>
-  <data name="&gt;&gt;labelResultado.ZOrder" xml:space="preserve">
-    <value>34</value>
-  </data>
-  <data name="button3.Text" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="&gt;&gt;buttonMS.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;buttonMC.Name" xml:space="preserve">
-    <value>buttonMC</value>
-  </data>
-  <data name="&gt;&gt;buttonPercentual.ZOrder" xml:space="preserve">
-    <value>33</value>
-  </data>
-  <data name="&gt;&gt;buttonSubtracao.ZOrder" xml:space="preserve">
-    <value>30</value>
-  </data>
-  <data name="buttonIgual.Text" xml:space="preserve">
-    <value>=</value>
-  </data>
-  <data name="&gt;&gt;buttonIgual.Name" xml:space="preserve">
-    <value>buttonIgual</value>
-  </data>
-  <data name="&gt;&gt;buttonJurosCompostos.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="buttonJurosSimples.TabIndex" type="System.Int32, mscorlib">
-    <value>36</value>
-  </data>
-  <data name="buttonMS.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>Popup</value>
-  </data>
-  <data name="button1.TabIndex" type="System.Int32, mscorlib">
-    <value>13</value>
-  </data>
-  <data name="&gt;&gt;buttonMaisMenos.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;buttonPercentual.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="button1.Text" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="buttonJurosCompostos.TabIndex" type="System.Int32, mscorlib">
-    <value>37</value>
-  </data>
-  <data name="buttonApagar.TabIndex" type="System.Int32, mscorlib">
-    <value>21</value>
-  </data>
-  <data name="&gt;&gt;button7.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="buttonC.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>Popup</value>
-  </data>
-  <data name="button0.Text" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;labelResultado.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;buttonMS.ZOrder" xml:space="preserve">
-    <value>8</value>
-  </data>
-  <data name="button5.Text" xml:space="preserve">
-    <value>5</value>
-  </data>
-  <data name="buttonMoedas.Text" xml:space="preserve">
-    <value>Comprimento</value>
-  </data>
-  <data name="buttonDivisao.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI, 15pt, style=Bold</value>
-  </data>
-  <data name="buttonMMenos.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>Popup</value>
-  </data>
-  <data name="&gt;&gt;button2vx.Name" xml:space="preserve">
-    <value>button2vx</value>
-  </data>
-  <data name="buttonCe.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>Popup</value>
-  </data>
-  <data name="&gt;&gt;button1.ZOrder" xml:space="preserve">
-    <value>21</value>
   </data>
   <data name="labelResultado.Text" xml:space="preserve">
     <value>0</value>
@@ -796,328 +77,1104 @@
   <data name="labelResultado.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
     <value>MiddleRight</value>
   </data>
-  <data name="button2vx.Location" type="System.Drawing.Point, System.Drawing">
-    <value>164, 234</value>
+  <data name="&gt;&gt;labelResultado.Name" xml:space="preserve">
+    <value>labelResultado</value>
   </data>
-  <data name="button2.Text" xml:space="preserve">
-    <value>2</value>
+  <data name="&gt;&gt;labelResultado.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;button6.ZOrder" xml:space="preserve">
-    <value>23</value>
-  </data>
-  <data name="&gt;&gt;button1.Parent" xml:space="preserve">
+  <data name="&gt;&gt;labelResultado.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;buttonApagar.ZOrder" xml:space="preserve">
-    <value>13</value>
-  </data>
-  <data name="&gt;&gt;buttonMultiplicacao.ZOrder" xml:space="preserve">
-    <value>22</value>
-  </data>
-  <data name="button9.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>Popup</value>
-  </data>
-  <data name="button3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>164, 395</value>
-  </data>
-  <data name="buttonJurosCompostos.Size" type="System.Drawing.Size, System.Drawing">
-    <value>110, 25</value>
-  </data>
-  <data name="button4.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI, 15pt, style=Bold</value>
-  </data>
-  <data name="button1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>75, 50</value>
-  </data>
-  <data name="buttonMC.Size" type="System.Drawing.Size, System.Drawing">
-    <value>45, 20</value>
-  </data>
-  <data name="buttonC.Size" type="System.Drawing.Size, System.Drawing">
-    <value>75, 50</value>
-  </data>
-  <data name="&gt;&gt;buttonMC.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="buttonC.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI, 15pt, style=Bold</value>
-  </data>
-  <data name="button8.Size" type="System.Drawing.Size, System.Drawing">
-    <value>75, 50</value>
-  </data>
-  <data name="button6.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI, 15pt, style=Bold</value>
-  </data>
-  <data name="button2.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>Popup</value>
-  </data>
-  <data name="labelAcumular.Size" type="System.Drawing.Size, System.Drawing">
-    <value>288, 49</value>
-  </data>
-  <data name="buttonPercentual.Size" type="System.Drawing.Size, System.Drawing">
-    <value>75, 50</value>
-  </data>
-  <data name="button1.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>Popup</value>
-  </data>
-  <data name="buttonMC.Location" type="System.Drawing.Point, System.Drawing">
-    <value>142, 155</value>
-  </data>
-  <data name="&gt;&gt;button2.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="buttonMaisMenos.Location" type="System.Drawing.Point, System.Drawing">
-    <value>9, 449</value>
-  </data>
-  <data name="&gt;&gt;button9.Name" xml:space="preserve">
-    <value>button9</value>
-  </data>
-  <data name="&gt;&gt;button9.ZOrder" xml:space="preserve">
-    <value>27</value>
-  </data>
-  <data name="&gt;&gt;button5.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="buttonSubtracao.Location" type="System.Drawing.Point, System.Drawing">
-    <value>242, 342</value>
-  </data>
-  <data name="buttonC.Text" xml:space="preserve">
-    <value>C</value>
-  </data>
-  <data name="&gt;&gt;buttonAdicao.Name" xml:space="preserve">
-    <value>buttonAdicao</value>
-  </data>
-  <data name="button9.Location" type="System.Drawing.Point, System.Drawing">
-    <value>164, 288</value>
-  </data>
-  <data name="button5.TabIndex" type="System.Int32, mscorlib">
-    <value>10</value>
-  </data>
-  <data name="button6.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>Popup</value>
-  </data>
-  <data name="buttonDivisao.Text" xml:space="preserve">
-    <value>/</value>
-  </data>
-  <data name="buttonSubtracao.Size" type="System.Drawing.Size, System.Drawing">
-    <value>75, 50</value>
-  </data>
-  <data name="&gt;&gt;buttonX2.Name" xml:space="preserve">
-    <value>buttonX2</value>
-  </data>
-  <data name="buttonX2.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI, 15pt, style=Bold</value>
-  </data>
-  <data name="buttonMultiplicacao.Location" type="System.Drawing.Point, System.Drawing">
-    <value>242, 288</value>
-  </data>
-  <data name="&gt;&gt;button1X.Name" xml:space="preserve">
-    <value>button1X</value>
-  </data>
-  <data name="button3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>75, 50</value>
-  </data>
-  <data name="&gt;&gt;buttonMultiplicacao.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;button5.ZOrder" xml:space="preserve">
-    <value>24</value>
-  </data>
-  <data name="&gt;&gt;button2vx.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="labelC.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>MiddleLeft</value>
-  </data>
-  <data name="&gt;&gt;buttonMultiplicacao.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="labelAcumular.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>MiddleRight</value>
-  </data>
-  <data name="&gt;&gt;button8.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="buttonSubtracao.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>Popup</value>
-  </data>
-  <data name="button4.Text" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="button9.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI, 15pt, style=Bold</value>
-  </data>
-  <data name="buttonMR.Size" type="System.Drawing.Size, System.Drawing">
-    <value>45, 20</value>
-  </data>
-  <data name="labelAcumular.Location" type="System.Drawing.Point, System.Drawing">
-    <value>15, 23</value>
-  </data>
-  <data name="&gt;&gt;button4.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="button5.Location" type="System.Drawing.Point, System.Drawing">
-    <value>86, 342</value>
-  </data>
-  <data name="buttonMR.Text" xml:space="preserve">
-    <value>MR</value>
-  </data>
-  <data name="button6.Location" type="System.Drawing.Point, System.Drawing">
-    <value>164, 342</value>
-  </data>
-  <data name="button9.Text" xml:space="preserve">
-    <value>9</value>
-  </data>
-  <data name="buttonAdicao.TabIndex" type="System.Int32, mscorlib">
-    <value>16</value>
-  </data>
-  <data name="&gt;&gt;button4.Name" xml:space="preserve">
-    <value>button4</value>
-  </data>
-  <data name="&gt;&gt;labelC.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="buttonDivisao.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>Popup</value>
-  </data>
-  <data name="&gt;&gt;labelAcumular.ZOrder" xml:space="preserve">
-    <value>12</value>
-  </data>
-  <data name="buttonMMenos.Location" type="System.Drawing.Point, System.Drawing">
-    <value>66, 155</value>
-  </data>
-  <data name="buttonAdicao.Location" type="System.Drawing.Point, System.Drawing">
-    <value>242, 395</value>
-  </data>
-  <data name="&gt;&gt;buttoMMais.Name" xml:space="preserve">
-    <value>buttoMMais</value>
-  </data>
-  <data name="&gt;&gt;buttonCe.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;buttonMoedas.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="buttonJurosSimples.Location" type="System.Drawing.Point, System.Drawing">
-    <value>110, 4</value>
-  </data>
-  <data name="button8.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI, 15pt, style=Bold</value>
-  </data>
-  <data name="buttonIgual.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI, 15pt, style=Bold</value>
-  </data>
-  <data name="&gt;&gt;buttonMoedas.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;labelAcumular.Name" xml:space="preserve">
-    <value>labelAcumular</value>
-  </data>
-  <data name="buttonC.Location" type="System.Drawing.Point, System.Drawing">
-    <value>9, 181</value>
-  </data>
-  <data name="buttonMaisMenos.TabIndex" type="System.Int32, mscorlib">
-    <value>17</value>
-  </data>
-  <data name="&gt;&gt;buttonMMenos.ZOrder" xml:space="preserve">
-    <value>9</value>
-  </data>
-  <data name="button2vx.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+  <data name="&gt;&gt;labelResultado.ZOrder" xml:space="preserve">
+    <value>36</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="buttonPercentual.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Popup</value>
   </data>
   <data name="buttonPercentual.Font" type="System.Drawing.Font, System.Drawing">
     <value>Segoe UI, 15pt, style=Bold</value>
   </data>
-  <data name="button3.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI, 15pt</value>
+  <data name="buttonPercentual.Location" type="System.Drawing.Point, System.Drawing">
+    <value>164, 181</value>
   </data>
-  <data name="&gt;&gt;buttonX2.ZOrder" xml:space="preserve">
-    <value>5</value>
-  </data>
-  <data name="buttonAdicao.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="buttonPercentual.Size" type="System.Drawing.Size, System.Drawing">
     <value>75, 50</value>
   </data>
-  <data name="&gt;&gt;button1X.Parent" xml:space="preserve">
+  <data name="buttonPercentual.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="buttonPercentual.Text" xml:space="preserve">
+    <value>%</value>
+  </data>
+  <data name="&gt;&gt;buttonPercentual.Name" xml:space="preserve">
+    <value>buttonPercentual</value>
+  </data>
+  <data name="&gt;&gt;buttonPercentual.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;buttonPercentual.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="labelC.Size" type="System.Drawing.Size, System.Drawing">
-    <value>100, 23</value>
+  <data name="&gt;&gt;buttonPercentual.ZOrder" xml:space="preserve">
+    <value>35</value>
   </data>
-  <data name="buttoMMais.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI, 9pt, style=Bold</value>
-  </data>
-  <data name="&gt;&gt;button8.ZOrder" xml:space="preserve">
-    <value>28</value>
-  </data>
-  <data name="&gt;&gt;buttonDivisao.ZOrder" xml:space="preserve">
-    <value>26</value>
-  </data>
-  <data name="button7.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI, 15pt, style=Bold</value>
-  </data>
-  <data name="button4.Size" type="System.Drawing.Size, System.Drawing">
-    <value>75, 50</value>
-  </data>
-  <data name="buttonMC.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+  <data name="buttonCe.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Popup</value>
   </data>
-  <data name="button1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>9, 395</value>
+  <data name="buttonCe.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 15pt, style=Bold</value>
   </data>
-  <data name="buttonDivisao.Location" type="System.Drawing.Point, System.Drawing">
-    <value>242, 234</value>
+  <data name="buttonCe.Location" type="System.Drawing.Point, System.Drawing">
+    <value>86, 181</value>
   </data>
-  <data name="button9.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="buttonCe.Size" type="System.Drawing.Size, System.Drawing">
     <value>75, 50</value>
   </data>
-  <data name="buttonVirgula.Location" type="System.Drawing.Point, System.Drawing">
-    <value>164, 449</value>
-  </data>
-  <data name="&gt;&gt;button2vx.ZOrder" xml:space="preserve">
-    <value>6</value>
-  </data>
-  <data name="button4.Location" type="System.Drawing.Point, System.Drawing">
-    <value>9, 342</value>
-  </data>
-  <data name="&gt;&gt;button6.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;button7.ZOrder" xml:space="preserve">
-    <value>29</value>
-  </data>
-  <data name="&gt;&gt;buttonMoedas.ZOrder" xml:space="preserve">
+  <data name="buttonCe.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
   </data>
-  <data name="&gt;&gt;labelResultado.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="buttonCe.Text" xml:space="preserve">
+    <value>CE</value>
   </data>
-  <data name="button8.TabIndex" type="System.Int32, mscorlib">
-    <value>6</value>
+  <data name="&gt;&gt;buttonCe.Name" xml:space="preserve">
+    <value>buttonCe</value>
+  </data>
+  <data name="&gt;&gt;buttonCe.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;buttonCe.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;buttonCe.ZOrder" xml:space="preserve">
+    <value>34</value>
+  </data>
+  <data name="buttonC.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
+  <data name="buttonC.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 15pt, style=Bold</value>
+  </data>
+  <data name="buttonC.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 181</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="buttonC.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="buttonC.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 50</value>
+  </data>
+  <data name="buttonC.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="buttonC.Text" xml:space="preserve">
+    <value>C</value>
+  </data>
+  <data name="&gt;&gt;buttonC.Name" xml:space="preserve">
+    <value>buttonC</value>
+  </data>
+  <data name="&gt;&gt;buttonC.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;buttonC.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;buttonC.ZOrder" xml:space="preserve">
+    <value>33</value>
+  </data>
+  <data name="buttonSubtracao.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
+  <data name="buttonSubtracao.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 15pt, style=Bold</value>
+  </data>
+  <data name="buttonSubtracao.Location" type="System.Drawing.Point, System.Drawing">
+    <value>242, 342</value>
+  </data>
+  <data name="buttonSubtracao.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 50</value>
+  </data>
+  <data name="buttonSubtracao.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="buttonSubtracao.Text" xml:space="preserve">
+    <value>-</value>
   </data>
   <data name="&gt;&gt;buttonSubtracao.Name" xml:space="preserve">
     <value>buttonSubtracao</value>
   </data>
+  <data name="&gt;&gt;buttonSubtracao.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;buttonSubtracao.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;buttonSubtracao.ZOrder" xml:space="preserve">
+    <value>32</value>
+  </data>
+  <data name="button7.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
+  <data name="button7.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 15pt, style=Bold</value>
+  </data>
+  <data name="button7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 288</value>
+  </data>
+  <data name="button7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 50</value>
+  </data>
+  <data name="button7.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="button7.Text" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;button7.Name" xml:space="preserve">
+    <value>button7</value>
+  </data>
+  <data name="&gt;&gt;button7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;button7.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;button7.ZOrder" xml:space="preserve">
+    <value>31</value>
+  </data>
+  <data name="button8.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
+  <data name="button8.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 15pt, style=Bold</value>
+  </data>
+  <data name="button8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>86, 288</value>
+  </data>
+  <data name="button8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 50</value>
+  </data>
+  <data name="button8.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="button8.Text" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;button8.Name" xml:space="preserve">
+    <value>button8</value>
+  </data>
+  <data name="&gt;&gt;button8.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;button8.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;button8.ZOrder" xml:space="preserve">
+    <value>30</value>
+  </data>
+  <data name="button9.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
+  <data name="button9.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 15pt, style=Bold</value>
+  </data>
+  <data name="button9.Location" type="System.Drawing.Point, System.Drawing">
+    <value>164, 288</value>
+  </data>
+  <data name="button9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 50</value>
+  </data>
+  <data name="button9.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="button9.Text" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;button9.Name" xml:space="preserve">
+    <value>button9</value>
+  </data>
+  <data name="&gt;&gt;button9.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;button9.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;button9.ZOrder" xml:space="preserve">
+    <value>29</value>
+  </data>
+  <data name="buttonDivisao.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
+  <data name="buttonDivisao.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 15pt, style=Bold</value>
+  </data>
+  <data name="buttonDivisao.Location" type="System.Drawing.Point, System.Drawing">
+    <value>242, 234</value>
+  </data>
+  <data name="buttonDivisao.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 50</value>
+  </data>
+  <data name="buttonDivisao.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="buttonDivisao.Text" xml:space="preserve">
+    <value>/</value>
+  </data>
+  <data name="&gt;&gt;buttonDivisao.Name" xml:space="preserve">
+    <value>buttonDivisao</value>
+  </data>
+  <data name="&gt;&gt;buttonDivisao.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;buttonDivisao.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;buttonDivisao.ZOrder" xml:space="preserve">
+    <value>28</value>
+  </data>
+  <data name="buttonAdicao.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
+  <data name="buttonAdicao.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 15pt, style=Bold</value>
+  </data>
+  <data name="buttonAdicao.Location" type="System.Drawing.Point, System.Drawing">
+    <value>242, 395</value>
+  </data>
+  <data name="buttonAdicao.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 50</value>
+  </data>
+  <data name="buttonAdicao.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="buttonAdicao.Text" xml:space="preserve">
+    <value>+</value>
+  </data>
+  <data name="&gt;&gt;buttonAdicao.Name" xml:space="preserve">
+    <value>buttonAdicao</value>
+  </data>
+  <data name="&gt;&gt;buttonAdicao.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;buttonAdicao.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;buttonAdicao.ZOrder" xml:space="preserve">
+    <value>20</value>
+  </data>
+  <data name="button3.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
+  <data name="button3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 15pt</value>
+  </data>
+  <data name="button3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>164, 395</value>
+  </data>
+  <data name="button3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 50</value>
+  </data>
+  <data name="button3.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="button3.Text" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;button3.Name" xml:space="preserve">
+    <value>button3</value>
+  </data>
+  <data name="&gt;&gt;button3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;button3.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;button3.ZOrder" xml:space="preserve">
+    <value>21</value>
+  </data>
+  <data name="button2.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
   <data name="button2.Font" type="System.Drawing.Font, System.Drawing">
     <value>Segoe UI, 15pt, style=Bold</value>
   </data>
-  <data name="&gt;&gt;buttonMultiplicacao.Name" xml:space="preserve">
-    <value>buttonMultiplicacao</value>
+  <data name="button2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>86, 395</value>
   </data>
-  <data name="button0.Location" type="System.Drawing.Point, System.Drawing">
-    <value>86, 449</value>
+  <data name="button2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 50</value>
+  </data>
+  <data name="button2.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="button2.Text" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;button2.Name" xml:space="preserve">
+    <value>button2</value>
+  </data>
+  <data name="&gt;&gt;button2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;button2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;button2.ZOrder" xml:space="preserve">
+    <value>22</value>
+  </data>
+  <data name="button1.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
+  <data name="button1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 15pt, style=Bold</value>
+  </data>
+  <data name="button1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 395</value>
+  </data>
+  <data name="button1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 50</value>
+  </data>
+  <data name="button1.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="button1.Text" xml:space="preserve">
+    <value>1</value>
   </data>
   <data name="&gt;&gt;button1.Name" xml:space="preserve">
     <value>button1</value>
   </data>
+  <data name="&gt;&gt;button1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;button1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;button1.ZOrder" xml:space="preserve">
+    <value>23</value>
+  </data>
+  <data name="buttonMultiplicacao.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
+  <data name="buttonMultiplicacao.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 15pt, style=Bold</value>
+  </data>
+  <data name="buttonMultiplicacao.Location" type="System.Drawing.Point, System.Drawing">
+    <value>242, 288</value>
+  </data>
+  <data name="buttonMultiplicacao.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 50</value>
+  </data>
+  <data name="buttonMultiplicacao.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="buttonMultiplicacao.Text" xml:space="preserve">
+    <value>X</value>
+  </data>
+  <data name="&gt;&gt;buttonMultiplicacao.Name" xml:space="preserve">
+    <value>buttonMultiplicacao</value>
+  </data>
+  <data name="&gt;&gt;buttonMultiplicacao.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;buttonMultiplicacao.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;buttonMultiplicacao.ZOrder" xml:space="preserve">
+    <value>24</value>
+  </data>
+  <data name="button6.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
+  <data name="button6.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 15pt, style=Bold</value>
+  </data>
+  <data name="button6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>164, 342</value>
+  </data>
+  <data name="button6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 50</value>
+  </data>
+  <data name="button6.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="button6.Text" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;button6.Name" xml:space="preserve">
+    <value>button6</value>
+  </data>
+  <data name="&gt;&gt;button6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;button6.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;button6.ZOrder" xml:space="preserve">
+    <value>25</value>
+  </data>
+  <data name="button5.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
   <data name="button5.Font" type="System.Drawing.Font, System.Drawing">
     <value>Segoe UI, 15pt, style=Bold</value>
   </data>
+  <data name="button5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>86, 342</value>
+  </data>
+  <data name="button5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 50</value>
+  </data>
+  <data name="button5.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="button5.Text" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;button5.Name" xml:space="preserve">
+    <value>button5</value>
+  </data>
+  <data name="&gt;&gt;button5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;button5.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;button5.ZOrder" xml:space="preserve">
+    <value>26</value>
+  </data>
+  <data name="button4.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
+  <data name="button4.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 15pt, style=Bold</value>
+  </data>
+  <data name="button4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 342</value>
+  </data>
+  <data name="button4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 50</value>
+  </data>
+  <data name="button4.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="button4.Text" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;button4.Name" xml:space="preserve">
+    <value>button4</value>
+  </data>
+  <data name="&gt;&gt;button4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;button4.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;button4.ZOrder" xml:space="preserve">
+    <value>27</value>
+  </data>
+  <data name="buttonIgual.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
+  <data name="buttonIgual.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 15pt, style=Bold</value>
+  </data>
+  <data name="buttonIgual.Location" type="System.Drawing.Point, System.Drawing">
+    <value>242, 449</value>
+  </data>
+  <data name="buttonIgual.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 50</value>
+  </data>
+  <data name="buttonIgual.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="buttonIgual.Text" xml:space="preserve">
+    <value>=</value>
+  </data>
+  <data name="&gt;&gt;buttonIgual.Name" xml:space="preserve">
+    <value>buttonIgual</value>
+  </data>
+  <data name="&gt;&gt;buttonIgual.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;buttonIgual.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;buttonIgual.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="buttonVirgula.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
+  <data name="buttonVirgula.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 15pt, style=Bold</value>
+  </data>
+  <data name="buttonVirgula.Location" type="System.Drawing.Point, System.Drawing">
+    <value>164, 449</value>
+  </data>
+  <data name="buttonVirgula.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 50</value>
+  </data>
+  <data name="buttonVirgula.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="buttonVirgula.Text" xml:space="preserve">
+    <value>,</value>
+  </data>
+  <data name="&gt;&gt;buttonVirgula.Name" xml:space="preserve">
+    <value>buttonVirgula</value>
+  </data>
+  <data name="&gt;&gt;buttonVirgula.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;buttonVirgula.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;buttonVirgula.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="button0.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
+  <data name="button0.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 15pt, style=Bold</value>
+  </data>
+  <data name="button0.Location" type="System.Drawing.Point, System.Drawing">
+    <value>86, 449</value>
+  </data>
+  <data name="button0.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 50</value>
+  </data>
+  <data name="button0.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="button0.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;button0.Name" xml:space="preserve">
+    <value>button0</value>
+  </data>
+  <data name="&gt;&gt;button0.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;button0.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;button0.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="buttonMaisMenos.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
+  <data name="buttonMaisMenos.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 15pt, style=Bold</value>
+  </data>
+  <data name="buttonMaisMenos.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 449</value>
+  </data>
+  <data name="buttonMaisMenos.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 50</value>
+  </data>
+  <data name="buttonMaisMenos.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="buttonMaisMenos.Text" xml:space="preserve">
+    <value>+/-</value>
+  </data>
+  <data name="&gt;&gt;buttonMaisMenos.Name" xml:space="preserve">
+    <value>buttonMaisMenos</value>
+  </data>
+  <data name="&gt;&gt;buttonMaisMenos.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;buttonMaisMenos.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;buttonMaisMenos.ZOrder" xml:space="preserve">
+    <value>19</value>
+  </data>
+  <data name="buttonApagar.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
+  <data name="buttonApagar.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 15pt, style=Bold</value>
+  </data>
+  <data name="buttonApagar.Location" type="System.Drawing.Point, System.Drawing">
+    <value>242, 181</value>
+  </data>
+  <data name="buttonApagar.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 50</value>
+  </data>
+  <data name="buttonApagar.TabIndex" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <data name="buttonApagar.Text" xml:space="preserve">
+    <value>&lt;</value>
+  </data>
+  <data name="&gt;&gt;buttonApagar.Name" xml:space="preserve">
+    <value>buttonApagar</value>
+  </data>
+  <data name="&gt;&gt;buttonApagar.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;buttonApagar.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;buttonApagar.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="labelAcumular.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 13pt</value>
+  </data>
+  <data name="labelAcumular.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 23</value>
+  </data>
+  <data name="labelAcumular.Size" type="System.Drawing.Size, System.Drawing">
+    <value>288, 49</value>
+  </data>
+  <data name="labelAcumular.TabIndex" type="System.Int32, mscorlib">
+    <value>25</value>
+  </data>
+  <data name="labelAcumular.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="labelAcumular.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;labelAcumular.Name" xml:space="preserve">
+    <value>labelAcumular</value>
+  </data>
+  <data name="&gt;&gt;labelAcumular.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelAcumular.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;labelAcumular.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="buttonMC.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
+  <data name="buttonMC.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9pt, style=Bold</value>
+  </data>
+  <data name="buttonMC.Location" type="System.Drawing.Point, System.Drawing">
+    <value>142, 155</value>
+  </data>
+  <data name="buttonMC.Size" type="System.Drawing.Size, System.Drawing">
+    <value>45, 20</value>
+  </data>
+  <data name="buttonMC.TabIndex" type="System.Int32, mscorlib">
+    <value>26</value>
+  </data>
+  <data name="buttonMC.Text" xml:space="preserve">
+    <value>MC</value>
+  </data>
+  <data name="&gt;&gt;buttonMC.Name" xml:space="preserve">
+    <value>buttonMC</value>
+  </data>
+  <data name="&gt;&gt;buttonMC.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;buttonMC.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
   <data name="&gt;&gt;buttonMC.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="buttonMR.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
+  <data name="buttonMR.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9pt, style=Bold</value>
+  </data>
+  <data name="buttonMR.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 155</value>
+  </data>
+  <data name="buttonMR.Size" type="System.Drawing.Size, System.Drawing">
+    <value>45, 20</value>
+  </data>
+  <data name="buttonMR.TabIndex" type="System.Int32, mscorlib">
+    <value>27</value>
+  </data>
+  <data name="buttonMR.Text" xml:space="preserve">
+    <value>MR</value>
+  </data>
+  <data name="&gt;&gt;buttonMR.Name" xml:space="preserve">
+    <value>buttonMR</value>
+  </data>
+  <data name="&gt;&gt;buttonMR.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;buttonMR.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;buttonMR.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="buttonMMenos.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
+  <data name="buttonMMenos.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9pt, style=Bold</value>
+  </data>
+  <data name="buttonMMenos.Location" type="System.Drawing.Point, System.Drawing">
+    <value>66, 155</value>
+  </data>
+  <data name="buttonMMenos.Size" type="System.Drawing.Size, System.Drawing">
+    <value>45, 20</value>
+  </data>
+  <data name="buttonMMenos.TabIndex" type="System.Int32, mscorlib">
+    <value>28</value>
+  </data>
+  <data name="buttonMMenos.Text" xml:space="preserve">
+    <value>M-</value>
+  </data>
+  <data name="&gt;&gt;buttonMMenos.Name" xml:space="preserve">
+    <value>buttonMMenos</value>
+  </data>
+  <data name="&gt;&gt;buttonMMenos.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;buttonMMenos.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;buttonMMenos.ZOrder" xml:space="preserve">
     <value>11</value>
   </data>
-  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>324, 511</value>
+  <data name="buttonMS.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
+  <data name="buttonMS.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9pt, style=Bold</value>
+  </data>
+  <data name="buttonMS.Location" type="System.Drawing.Point, System.Drawing">
+    <value>267, 155</value>
+  </data>
+  <data name="buttonMS.Size" type="System.Drawing.Size, System.Drawing">
+    <value>45, 20</value>
+  </data>
+  <data name="buttonMS.TabIndex" type="System.Int32, mscorlib">
+    <value>29</value>
+  </data>
+  <data name="buttonMS.Text" xml:space="preserve">
+    <value>MS</value>
+  </data>
+  <data name="&gt;&gt;buttonMS.Name" xml:space="preserve">
+    <value>buttonMS</value>
+  </data>
+  <data name="&gt;&gt;buttonMS.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;buttonMS.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;buttonMS.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="button1X.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
+  <data name="button1X.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 15pt, style=Bold</value>
+  </data>
+  <data name="button1X.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 234</value>
+  </data>
+  <data name="button1X.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 50</value>
+  </data>
+  <data name="button1X.TabIndex" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <data name="button1X.Text" xml:space="preserve">
+    <value>¹/x</value>
+  </data>
+  <data name="&gt;&gt;button1X.Name" xml:space="preserve">
+    <value>button1X</value>
+  </data>
+  <data name="&gt;&gt;button1X.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;button1X.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;button1X.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="button2vx.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
+  <data name="button2vx.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 15pt, style=Bold</value>
+  </data>
+  <data name="button2vx.Location" type="System.Drawing.Point, System.Drawing">
+    <value>164, 234</value>
+  </data>
+  <data name="button2vx.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 50</value>
+  </data>
+  <data name="button2vx.TabIndex" type="System.Int32, mscorlib">
+    <value>31</value>
+  </data>
+  <data name="button2vx.Text" xml:space="preserve">
+    <value>²Vx</value>
+  </data>
+  <data name="&gt;&gt;button2vx.Name" xml:space="preserve">
+    <value>button2vx</value>
+  </data>
+  <data name="&gt;&gt;button2vx.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;button2vx.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;button2vx.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="buttonX2.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
+  <data name="buttonX2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 15pt, style=Bold</value>
+  </data>
+  <data name="buttonX2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>86, 234</value>
+  </data>
+  <data name="buttonX2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 50</value>
+  </data>
+  <data name="buttonX2.TabIndex" type="System.Int32, mscorlib">
+    <value>32</value>
+  </data>
+  <data name="buttonX2.Text" xml:space="preserve">
+    <value>x²</value>
+  </data>
+  <data name="&gt;&gt;buttonX2.Name" xml:space="preserve">
+    <value>buttonX2</value>
+  </data>
+  <data name="&gt;&gt;buttonX2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;buttonX2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;buttonX2.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="buttoMMais.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
+  <data name="buttoMMais.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9pt, style=Bold</value>
+  </data>
+  <data name="buttoMMais.Location" type="System.Drawing.Point, System.Drawing">
+    <value>216, 155</value>
+  </data>
+  <data name="buttoMMais.Size" type="System.Drawing.Size, System.Drawing">
+    <value>45, 20</value>
+  </data>
+  <data name="buttoMMais.TabIndex" type="System.Int32, mscorlib">
+    <value>33</value>
+  </data>
+  <data name="buttoMMais.Text" xml:space="preserve">
+    <value>M+</value>
+  </data>
+  <data name="&gt;&gt;buttoMMais.Name" xml:space="preserve">
+    <value>buttoMMais</value>
+  </data>
+  <data name="&gt;&gt;buttoMMais.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;buttoMMais.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;buttoMMais.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="labelC.Location" type="System.Drawing.Point, System.Drawing">
+    <value>22, 37</value>
+  </data>
+  <data name="labelC.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 23</value>
+  </data>
+  <data name="labelC.TabIndex" type="System.Int32, mscorlib">
+    <value>34</value>
+  </data>
+  <data name="labelC.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="labelC.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;labelC.Name" xml:space="preserve">
+    <value>labelC</value>
+  </data>
+  <data name="&gt;&gt;labelC.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelC.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;labelC.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="buttonMoedas.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="buttonMoedas.Location" type="System.Drawing.Point, System.Drawing">
+    <value>344, 16</value>
+  </data>
+  <data name="buttonMoedas.Size" type="System.Drawing.Size, System.Drawing">
+    <value>102, 25</value>
+  </data>
+  <data name="buttonMoedas.TabIndex" type="System.Int32, mscorlib">
+    <value>35</value>
+  </data>
+  <data name="buttonMoedas.Text" xml:space="preserve">
+    <value>Comprimento</value>
+  </data>
+  <data name="&gt;&gt;buttonMoedas.Name" xml:space="preserve">
+    <value>buttonMoedas</value>
+  </data>
+  <data name="&gt;&gt;buttonMoedas.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;buttonMoedas.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;buttonMoedas.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="buttonJurosSimples.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="buttonJurosSimples.Location" type="System.Drawing.Point, System.Drawing">
+    <value>344, 47</value>
+  </data>
+  <data name="buttonJurosSimples.Size" type="System.Drawing.Size, System.Drawing">
+    <value>97, 25</value>
+  </data>
+  <data name="buttonJurosSimples.TabIndex" type="System.Int32, mscorlib">
+    <value>36</value>
+  </data>
+  <data name="buttonJurosSimples.Text" xml:space="preserve">
+    <value>Juros Simples</value>
+  </data>
+  <data name="&gt;&gt;buttonJurosSimples.Name" xml:space="preserve">
+    <value>buttonJurosSimples</value>
+  </data>
+  <data name="&gt;&gt;buttonJurosSimples.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;buttonJurosSimples.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;buttonJurosSimples.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="buttonJurosCompostos.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="buttonJurosCompostos.Location" type="System.Drawing.Point, System.Drawing">
+    <value>344, 78</value>
+  </data>
+  <data name="buttonJurosCompostos.Size" type="System.Drawing.Size, System.Drawing">
+    <value>110, 25</value>
+  </data>
+  <data name="buttonJurosCompostos.TabIndex" type="System.Int32, mscorlib">
+    <value>37</value>
+  </data>
+  <data name="buttonJurosCompostos.Text" xml:space="preserve">
+    <value>Juros Compostos</value>
+  </data>
+  <data name="&gt;&gt;buttonJurosCompostos.Name" xml:space="preserve">
+    <value>buttonJurosCompostos</value>
+  </data>
+  <data name="&gt;&gt;buttonJurosCompostos.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;buttonJurosCompostos.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;buttonJurosCompostos.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="buttonTimer.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="buttonTimer.Location" type="System.Drawing.Point, System.Drawing">
+    <value>344, 109</value>
+  </data>
+  <data name="buttonTimer.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="buttonTimer.TabIndex" type="System.Int32, mscorlib">
+    <value>38</value>
+  </data>
+  <data name="buttonTimer.Text" xml:space="preserve">
+    <value>Timer</value>
+  </data>
+  <data name="&gt;&gt;buttonTimer.Name" xml:space="preserve">
+    <value>buttonTimer</value>
+  </data>
+  <data name="&gt;&gt;buttonTimer.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;buttonTimer.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;buttonTimer.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="buttonCronometro.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="buttonCronometro.Location" type="System.Drawing.Point, System.Drawing">
+    <value>344, 138</value>
+  </data>
+  <data name="buttonCronometro.Size" type="System.Drawing.Size, System.Drawing">
+    <value>83, 23</value>
+  </data>
+  <data name="buttonCronometro.TabIndex" type="System.Int32, mscorlib">
+    <value>39</value>
+  </data>
+  <data name="buttonCronometro.Text" xml:space="preserve">
+    <value>Cronometro</value>
+  </data>
+  <data name="&gt;&gt;buttonCronometro.Name" xml:space="preserve">
+    <value>buttonCronometro</value>
+  </data>
+  <data name="&gt;&gt;buttonCronometro.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;buttonCronometro.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;buttonCronometro.ZOrder" xml:space="preserve">
+    <value>0</value>
   </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>7, 15</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>402, 511</value>
+  </data>
+  <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9pt</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Calculadora</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>FormCalculadora</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
 </root>

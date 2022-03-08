@@ -3,14 +3,17 @@ namespace calculadoravisual
     public partial class FormCalculadora : Form
     {
         double acumular;
-        string operacao;
         double c;
+        string? operacao;
+        int botao;
 
         public FormCalculadora()
         {
             InitializeComponent();
             labelAcumular.Text = "";
             labelC.Text = "";
+            Timer TimerForm = new Timer();
+            TimerForm.Show();
         }
 
 
@@ -22,118 +25,72 @@ namespace calculadoravisual
 
         private void button0_Click(object sender, EventArgs e)
         {
-            if (labelResultado.Text == "0")
-            {
-                labelResultado.Text = "0";
-            }
-            else
-            {
-                labelResultado.Text += "0";
-            }
+            botao = 0;
+            adbotao();
         }
         private void button1_Click(object sender, EventArgs e)
         {
-            if (labelResultado.Text == "0")
-            {
-                labelResultado.Text = "1";
-            }
-            else
-            {
-                labelResultado.Text += "1";
-            }
+            botao = 1;
+            adbotao();
         }
         private void button2_Click(object sender, EventArgs e)
         {
-            if (labelResultado.Text == "0")
-            {
-                labelResultado.Text = "2";
-            }
-            else
-            {
-                labelResultado.Text += "2";
-            }
+            botao = 2;
+            adbotao();
         }
         private void button3_Click(object sender, EventArgs e)
         {
-            if (labelResultado.Text == "0")
-            {
-                labelResultado.Text = "3";
-            }
-            else
-            {
-                labelResultado.Text += "3";
-            }
+            botao = 3;
+            adbotao();
         }
         private void button4_Click(object sender, EventArgs e)
         {
-            if (labelResultado.Text == "0")
-            {
-                labelResultado.Text = "4";
-            }
-            else
-            {
-                labelResultado.Text += "4";
-            }
+            botao = 4;
+            adbotao();
         }
         private void button5_Click(object sender, EventArgs e)
         {
-            if (labelResultado.Text == "0")
-            {
-                labelResultado.Text = "5";
-            }
-            else
-            {
-                labelResultado.Text += "5";
-            }  
-                
+            botao = 5;
+            adbotao();
+
         }
         private void button6_Click(object sender, EventArgs e)
         {
-            if (labelResultado.Text == "0")
-            {
-                labelResultado.Text = "6";
-            }
-            else
-            {
-                labelResultado.Text += "6";
-            }
+            botao = 6;
+            adbotao();
         }
         private void button7_Click(object sender, EventArgs e)
         {
-            if (labelResultado.Text == "0")
-            {
-                labelResultado.Text = "7";
-            }
-            else
-            {
-                labelResultado.Text += "7";
-            }
+            botao = 7;
+            adbotao();
         }
         private void button8_Click(object sender, EventArgs e)
         {
-            if (labelResultado.Text == "0")
-            {
-                labelResultado.Text = "8";
-            }
-            else
-            {
-                labelResultado.Text += "8";
-            }
+            botao = 8;
+            adbotao();
         }
         private void button9_Click(object sender, EventArgs e)
         {
-            if (labelResultado.Text == "0")
-            {
-                labelResultado.Text = "9";
-            }
-            else
-            {
-                labelResultado.Text += "9";
-            }
+            botao = 9;
+            adbotao();
         }
         private void buttonVirgula_Click(object sender, EventArgs e)
         {
             labelResultado.Text += ",";
+        }
+
+         private void adbotao()
+        {
+            if (labelResultado.Text == "0")
+            {
+                labelResultado.Text = botao.ToString();
+            }
+            else
+            {
+                labelResultado.Text += botao.ToString();
+            }
+
+            botao = 0;
         }
 
 
@@ -233,7 +190,7 @@ namespace calculadoravisual
 
         private void soma()
         {
-            acumular = acumular + double.Parse(labelResultado.Text);
+            acumular += double.Parse(labelResultado.Text);
             labelAcumular.Text = " " + labelAcumular.Text + labelResultado.Text + " = ";
             labelResultado.Text = acumular.ToString();
             operacao = "";
@@ -460,6 +417,12 @@ namespace calculadoravisual
         {
             FormJurosCompostos jurosCompostosForm = new FormJurosCompostos();
             jurosCompostosForm.Show();
+        }
+
+        private void buttonTimer_Click(object sender, EventArgs e)
+        {
+            Timer TimerForm = new Timer();
+            TimerForm.Show();
         }
     }
 }
