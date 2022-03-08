@@ -53,9 +53,8 @@
             this.labelHrs2 = new System.Windows.Forms.Label();
             this.buttonIniciar = new System.Windows.Forms.Button();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
-            this.labelMinn = new System.Windows.Forms.Label();
-            this.labelSecc = new System.Windows.Forms.Label();
-            this.labelHrss = new System.Windows.Forms.Label();
+            this.buttonPausar = new System.Windows.Forms.Button();
+            this.buttonParar = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // buttonApagar
@@ -231,7 +230,7 @@
             this.labelHrs1.AutoSize = true;
             this.labelHrs1.Font = new System.Drawing.Font("Segoe UI", 50.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.labelHrs1.ForeColor = System.Drawing.Color.White;
-            this.labelHrs1.Location = new System.Drawing.Point(33, 74);
+            this.labelHrs1.Location = new System.Drawing.Point(33, 73);
             this.labelHrs1.Name = "labelHrs1";
             this.labelHrs1.Size = new System.Drawing.Size(74, 89);
             this.labelHrs1.TabIndex = 53;
@@ -243,7 +242,7 @@
             this.labelMin1.AutoSize = true;
             this.labelMin1.Font = new System.Drawing.Font("Segoe UI", 50.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.labelMin1.ForeColor = System.Drawing.Color.White;
-            this.labelMin1.Location = new System.Drawing.Point(139, 74);
+            this.labelMin1.Location = new System.Drawing.Point(142, 73);
             this.labelMin1.Name = "labelMin1";
             this.labelMin1.Size = new System.Drawing.Size(74, 89);
             this.labelMin1.TabIndex = 54;
@@ -255,7 +254,7 @@
             this.labelSec1.AutoSize = true;
             this.labelSec1.Font = new System.Drawing.Font("Segoe UI", 50.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.labelSec1.ForeColor = System.Drawing.Color.White;
-            this.labelSec1.Location = new System.Drawing.Point(245, 74);
+            this.labelSec1.Location = new System.Drawing.Point(251, 73);
             this.labelSec1.Name = "labelSec1";
             this.labelSec1.Size = new System.Drawing.Size(74, 89);
             this.labelSec1.TabIndex = 55;
@@ -277,20 +276,22 @@
             // labelH
             // 
             this.labelH.AutoSize = true;
+            this.labelH.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.labelH.ForeColor = System.Drawing.Color.White;
-            this.labelH.Location = new System.Drawing.Point(82, 134);
+            this.labelH.Location = new System.Drawing.Point(81, 131);
             this.labelH.Name = "labelH";
-            this.labelH.Size = new System.Drawing.Size(16, 15);
+            this.labelH.Size = new System.Drawing.Size(17, 16);
             this.labelH.TabIndex = 57;
             this.labelH.Text = "H";
             // 
             // labelS
             // 
             this.labelS.AutoSize = true;
+            this.labelS.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.labelS.ForeColor = System.Drawing.Color.White;
-            this.labelS.Location = new System.Drawing.Point(295, 134);
+            this.labelS.Location = new System.Drawing.Point(299, 131);
             this.labelS.Name = "labelS";
-            this.labelS.Size = new System.Drawing.Size(13, 15);
+            this.labelS.Size = new System.Drawing.Size(16, 16);
             this.labelS.TabIndex = 58;
             this.labelS.Text = "S";
             this.labelS.Click += new System.EventHandler(this.labelS_Click);
@@ -298,10 +299,11 @@
             // labelM
             // 
             this.labelM.AutoSize = true;
+            this.labelM.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.labelM.ForeColor = System.Drawing.Color.White;
-            this.labelM.Location = new System.Drawing.Point(187, 134);
+            this.labelM.Location = new System.Drawing.Point(190, 131);
             this.labelM.Name = "labelM";
-            this.labelM.Size = new System.Drawing.Size(18, 15);
+            this.labelM.Size = new System.Drawing.Size(18, 16);
             this.labelM.TabIndex = 59;
             this.labelM.Text = "M";
             this.labelM.Click += new System.EventHandler(this.labelM_Click);
@@ -310,7 +312,7 @@
             // 
             this.labelSec2.Font = new System.Drawing.Font("Segoe UI", 50.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.labelSec2.ForeColor = System.Drawing.Color.White;
-            this.labelSec2.Location = new System.Drawing.Point(223, 74);
+            this.labelSec2.Location = new System.Drawing.Point(229, 73);
             this.labelSec2.Name = "labelSec2";
             this.labelSec2.Size = new System.Drawing.Size(40, 89);
             this.labelSec2.TabIndex = 60;
@@ -321,7 +323,7 @@
             // 
             this.labelMin2.Font = new System.Drawing.Font("Segoe UI", 50.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.labelMin2.ForeColor = System.Drawing.Color.White;
-            this.labelMin2.Location = new System.Drawing.Point(117, 74);
+            this.labelMin2.Location = new System.Drawing.Point(120, 73);
             this.labelMin2.Name = "labelMin2";
             this.labelMin2.Size = new System.Drawing.Size(40, 89);
             this.labelMin2.TabIndex = 61;
@@ -332,7 +334,7 @@
             // 
             this.labelHrs2.Font = new System.Drawing.Font("Segoe UI", 50.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.labelHrs2.ForeColor = System.Drawing.Color.White;
-            this.labelHrs2.Location = new System.Drawing.Point(11, 74);
+            this.labelHrs2.Location = new System.Drawing.Point(11, 73);
             this.labelHrs2.Name = "labelHrs2";
             this.labelHrs2.Size = new System.Drawing.Size(40, 89);
             this.labelHrs2.TabIndex = 62;
@@ -345,7 +347,7 @@
             this.buttonIniciar.BackColor = System.Drawing.Color.MediumTurquoise;
             this.buttonIniciar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buttonIniciar.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.buttonIniciar.Location = new System.Drawing.Point(119, 199);
+            this.buttonIniciar.Location = new System.Drawing.Point(121, 200);
             this.buttonIniciar.Name = "buttonIniciar";
             this.buttonIniciar.Size = new System.Drawing.Size(80, 40);
             this.buttonIniciar.TabIndex = 63;
@@ -358,59 +360,48 @@
             this.timer1.Interval = 1000;
             this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
             // 
-            // labelMinn
+            // buttonPausar
             // 
-            this.labelMinn.AutoSize = true;
-            this.labelMinn.Font = new System.Drawing.Font("Segoe UI", 50.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.labelMinn.ForeColor = System.Drawing.Color.White;
-            this.labelMinn.Location = new System.Drawing.Point(415, 115);
-            this.labelMinn.Name = "labelMinn";
-            this.labelMinn.Size = new System.Drawing.Size(74, 89);
-            this.labelMinn.TabIndex = 64;
-            this.labelMinn.Text = "0";
-            this.labelMinn.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.buttonPausar.BackColor = System.Drawing.Color.MediumTurquoise;
+            this.buttonPausar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.buttonPausar.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.buttonPausar.Location = new System.Drawing.Point(85, 205);
+            this.buttonPausar.Name = "buttonPausar";
+            this.buttonPausar.Size = new System.Drawing.Size(30, 30);
+            this.buttonPausar.TabIndex = 67;
+            this.buttonPausar.Text = "||";
+            this.buttonPausar.UseVisualStyleBackColor = false;
+            this.buttonPausar.Click += new System.EventHandler(this.buttonPausar_Click);
             // 
-            // labelSecc
+            // buttonParar
             // 
-            this.labelSecc.AutoSize = true;
-            this.labelSecc.Font = new System.Drawing.Font("Segoe UI", 50.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.labelSecc.ForeColor = System.Drawing.Color.White;
-            this.labelSecc.Location = new System.Drawing.Point(495, 115);
-            this.labelSecc.Name = "labelSecc";
-            this.labelSecc.Size = new System.Drawing.Size(74, 89);
-            this.labelSecc.TabIndex = 65;
-            this.labelSecc.Text = "0";
-            this.labelSecc.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // labelHrss
-            // 
-            this.labelHrss.AutoSize = true;
-            this.labelHrss.Font = new System.Drawing.Font("Segoe UI", 50.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.labelHrss.ForeColor = System.Drawing.Color.White;
-            this.labelHrss.Location = new System.Drawing.Point(335, 115);
-            this.labelHrss.Name = "labelHrss";
-            this.labelHrss.Size = new System.Drawing.Size(74, 89);
-            this.labelHrss.TabIndex = 66;
-            this.labelHrss.Text = "0";
-            this.labelHrss.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.buttonParar.BackColor = System.Drawing.Color.MediumTurquoise;
+            this.buttonParar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.buttonParar.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.buttonParar.Location = new System.Drawing.Point(207, 205);
+            this.buttonParar.Name = "buttonParar";
+            this.buttonParar.Size = new System.Drawing.Size(30, 30);
+            this.buttonParar.TabIndex = 68;
+            this.buttonParar.Text = "X";
+            this.buttonParar.UseVisualStyleBackColor = false;
+            this.buttonParar.Click += new System.EventHandler(this.buttonParar_Click);
             // 
             // Timer
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(38)))), ((int)(((byte)(38)))));
-            this.ClientSize = new System.Drawing.Size(579, 511);
-            this.Controls.Add(this.labelHrss);
-            this.Controls.Add(this.labelSecc);
-            this.Controls.Add(this.labelMinn);
+            this.ClientSize = new System.Drawing.Size(324, 511);
+            this.Controls.Add(this.labelSec2);
+            this.Controls.Add(this.labelS);
+            this.Controls.Add(this.buttonParar);
+            this.Controls.Add(this.buttonPausar);
             this.Controls.Add(this.buttonIniciar);
             this.Controls.Add(this.labelH);
             this.Controls.Add(this.labelHrs2);
             this.Controls.Add(this.labelM);
             this.Controls.Add(this.labelMin2);
             this.Controls.Add(this.labelMin1);
-            this.Controls.Add(this.labelSec2);
-            this.Controls.Add(this.labelS);
             this.Controls.Add(this.labelSec1);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.labelHrs1);
@@ -426,6 +417,7 @@
             this.Controls.Add(this.button9);
             this.Controls.Add(this.button8);
             this.Controls.Add(this.button7);
+            this.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.Name = "Timer";
             this.Text = "Timer";
             this.Load += new System.EventHandler(this.Timer_Load);
@@ -460,8 +452,7 @@
         private Label labelHrs2;
         private Button buttonIniciar;
         private System.Windows.Forms.Timer timer1;
-        private Label labelMinn;
-        private Label labelSecc;
-        private Label labelHrss;
+        private Button buttonPausar;
+        private Button buttonParar;
     }
 }
