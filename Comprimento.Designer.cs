@@ -44,13 +44,14 @@
             this.button1 = new System.Windows.Forms.Button();
             this.comboBox2 = new System.Windows.Forms.ComboBox();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.label1 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // labelSaida
             // 
             this.labelSaida.Font = new System.Drawing.Font("Segoe UI", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.labelSaida.ForeColor = System.Drawing.Color.White;
-            this.labelSaida.Location = new System.Drawing.Point(12, 115);
+            this.labelSaida.Location = new System.Drawing.Point(12, 130);
             this.labelSaida.Name = "labelSaida";
             this.labelSaida.Size = new System.Drawing.Size(100, 45);
             this.labelSaida.TabIndex = 37;
@@ -61,7 +62,7 @@
             // 
             this.labelEntrada.Font = new System.Drawing.Font("Segoe UI", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.labelEntrada.ForeColor = System.Drawing.Color.White;
-            this.labelEntrada.Location = new System.Drawing.Point(12, 23);
+            this.labelEntrada.Location = new System.Drawing.Point(12, 38);
             this.labelEntrada.Name = "labelEntrada";
             this.labelEntrada.Size = new System.Drawing.Size(100, 42);
             this.labelEntrada.TabIndex = 36;
@@ -244,7 +245,7 @@
             "Centimetros",
             "Metros",
             "Quilometros"});
-            this.comboBox2.Location = new System.Drawing.Point(12, 163);
+            this.comboBox2.Location = new System.Drawing.Point(12, 178);
             this.comboBox2.Name = "comboBox2";
             this.comboBox2.Size = new System.Drawing.Size(121, 23);
             this.comboBox2.TabIndex = 21;
@@ -258,11 +259,22 @@
             "Centimetros",
             "Metros",
             "Quilometros"});
-            this.comboBox1.Location = new System.Drawing.Point(12, 68);
+            this.comboBox1.Location = new System.Drawing.Point(12, 83);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(121, 23);
             this.comboBox1.TabIndex = 20;
             this.comboBox1.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label1.ForeColor = System.Drawing.Color.White;
+            this.label1.Location = new System.Drawing.Point(5, 9);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(128, 25);
+            this.label1.TabIndex = 38;
+            this.label1.Text = "Comprimento";
             // 
             // Comprimento
             // 
@@ -270,6 +282,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(38)))), ((int)(((byte)(38)))));
             this.ClientSize = new System.Drawing.Size(324, 511);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.labelSaida);
             this.Controls.Add(this.labelEntrada);
             this.Controls.Add(this.buttonApagar);
@@ -289,6 +302,7 @@
             this.Name = "Comprimento";
             this.Text = "Comprimento";
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -310,5 +324,6 @@
         private Button button1;
         private ComboBox comboBox2;
         private ComboBox comboBox1;
+        private Label label1;
     }
 }

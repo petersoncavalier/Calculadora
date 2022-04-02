@@ -389,6 +389,7 @@
             resources.ApplyResources(this.buttonCronometro, "buttonCronometro");
             this.buttonCronometro.Name = "buttonCronometro";
             this.buttonCronometro.UseVisualStyleBackColor = false;
+            this.buttonCronometro.Click += new System.EventHandler(this.buttonCronometro_Click);
             // 
             // FormCalculadora
             // 

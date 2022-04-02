@@ -12,6 +12,7 @@ namespace calculadoravisual
 {
     public partial class FormJurosCompostos : Form
     {
+        int botao;
         public FormJurosCompostos()
         {
             InitializeComponent();
@@ -32,512 +33,62 @@ namespace calculadoravisual
 
         private void button0_Click(object sender, EventArgs e)
         {
-            if (checkBox1.Checked == true)
-            {
-                if (labelInicial.Text == "0")
-                {
-                    labelInicial.Text = "0";
-                }
-                else
-                {
-                    labelInicial.Text += "0";
-                }
-            }
-            else if (checkBox2.Checked == true)
-            {
-
-                if (labelMeses.Text == "0")
-                {
-                    labelMeses.Text = "0";
-                }
-                else
-                {
-                    labelMeses.Text += "0";
-                }
-            }
-            else if (checkBox3.Checked == true)
-            {
-
-                if (labelJuros.Text == "0")
-                {
-                    labelJuros.Text = "0";
-                }
-                else
-                {
-                    labelJuros.Text += "0";
-                }
-            }
-            else if (checkBox4.Checked == true)
-            {
-                if (labelPeriodo.Text == "0")
-                {
-                    labelPeriodo.Text = "0";
-                }
-                else
-                {
-                    labelPeriodo.Text += "0";
-                }
-            }
-            calcular();
+            botao = 0;
+            adbotao();
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            if (checkBox1.Checked == true)
-            {
-                if (labelInicial.Text == "0")
-                {
-                    labelInicial.Text = "1";
-                }
-                else
-                {
-                    labelInicial.Text += "1";
-                }
-            }
-            else if (checkBox2.Checked == true)
-            {
-
-                if (labelMeses.Text == "0")
-                {
-                    labelMeses.Text = "1";
-                }
-                else
-                {
-                    labelMeses.Text += "1";
-                }
-            }
-            else if (checkBox3.Checked == true)
-            {
-
-                if (labelJuros.Text == "0")
-                {
-                    labelJuros.Text = "1";
-                }
-                else
-                {
-                    labelJuros.Text += "1";
-                }
-            }
-            else if (checkBox4.Checked == true)
-            {
-                if (labelPeriodo.Text == "0")
-                {
-                    labelPeriodo.Text = "1";
-                }
-                else
-                {
-                    labelPeriodo.Text += "1";
-                }
-            }
-            calcular();
+            botao = 1;
+            adbotao();
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-            if (checkBox1.Checked == true)
-            {
-                if (labelInicial.Text == "0")
-                {
-                    labelInicial.Text = "2";
-                }
-                else
-                {
-                    labelInicial.Text += "2";
-                }
-            }
-            else if (checkBox2.Checked == true)
-            {
-
-                if (labelMeses.Text == "0")
-                {
-                    labelMeses.Text = "2";
-                }
-                else
-                {
-                    labelMeses.Text += "2";
-                }
-            }
-            else if (checkBox3.Checked == true)
-            {
-
-                if (labelJuros.Text == "0")
-                {
-                    labelJuros.Text = "2";
-                }
-                else
-                {
-                    labelJuros.Text += "2";
-                }
-            }
-            else if (checkBox4.Checked == true)
-            {
-                if (labelPeriodo.Text == "0")
-                {
-                    labelPeriodo.Text = "2";
-                }
-                else
-                {
-                    labelPeriodo.Text += "2";
-                }
-            }
-            calcular();
+            botao = 2;
+            adbotao();
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
-            if (checkBox1.Checked == true)
-            {
-                if (labelInicial.Text == "0")
-                {
-                    labelInicial.Text = "3";
-                }
-                else
-                {
-                    labelInicial.Text += "3";
-                }
-            }
-            else if (checkBox2.Checked == true)
-            {
-
-                if (labelMeses.Text == "0")
-                {
-                    labelMeses.Text = "3";
-                }
-                else
-                {
-                    labelMeses.Text += "3";
-                }
-            }
-            else if (checkBox3.Checked == true)
-            {
-
-                if (labelJuros.Text == "0")
-                {
-                    labelJuros.Text = "3";
-                }
-                else
-                {
-                    labelJuros.Text += "3";
-                }
-            }
-            else if (checkBox4.Checked == true)
-            {
-                if (labelPeriodo.Text == "0")
-                {
-                    labelPeriodo.Text = "3";
-                }
-                else
-                {
-                    labelPeriodo.Text += "3";
-                }
-            }
-            calcular();
+            botao = 3;
+            adbotao();
         }
 
         private void button4_Click(object sender, EventArgs e)
         {
-            if (checkBox1.Checked == true)
-            {
-                if (labelInicial.Text == "0")
-                {
-                    labelInicial.Text = "4";
-                }
-                else
-                {
-                    labelInicial.Text += "4";
-                }
-            }
-            else if (checkBox2.Checked == true)
-            {
-
-                if (labelMeses.Text == "0")
-                {
-                    labelMeses.Text = "4";
-                }
-                else
-                {
-                    labelMeses.Text += "4";
-                }
-            }
-            else if (checkBox3.Checked == true)
-            {
-
-                if (labelJuros.Text == "0")
-                {
-                    labelJuros.Text = "4";
-                }
-                else
-                {
-                    labelJuros.Text += "4";
-                }
-            }
-            else if (checkBox4.Checked == true)
-            {
-                if (labelPeriodo.Text == "0")
-                {
-                    labelPeriodo.Text = "4";
-                }
-                else
-                {
-                    labelPeriodo.Text += "4";
-                }
-            }
-            calcular();
+            botao = 4;
+            adbotao();
         }
 
         private void button5_Click(object sender, EventArgs e)
         {
-            if (checkBox1.Checked == true)
-            {
-                if (labelInicial.Text == "0")
-                {
-                    labelInicial.Text = "5";
-                }
-                else
-                {
-                    labelInicial.Text += "5";
-                }
-            }
-            else if (checkBox2.Checked == true)
-            {
-
-                if (labelMeses.Text == "0")
-                {
-                    labelMeses.Text = "5";
-                }
-                else
-                {
-                    labelMeses.Text += "5";
-                }
-            }
-            else if (checkBox3.Checked == true)
-            {
-
-                if (labelJuros.Text == "0")
-                {
-                    labelJuros.Text = "5";
-                }
-                else
-                {
-                    labelJuros.Text += "5";
-                }
-            }
-            else if (checkBox4.Checked == true)
-            {
-                if (labelPeriodo.Text == "0")
-                {
-                    labelPeriodo.Text = "5";
-                }
-                else
-                {
-                    labelPeriodo.Text += "5";
-                }
-            }
-            calcular();
+            botao = 5;
+            adbotao();
         }
 
         private void button6_Click(object sender, EventArgs e)
         {
-            if (checkBox1.Checked == true)
-            {
-                if (labelInicial.Text == "0")
-                {
-                    labelInicial.Text = "6";
-                }
-                else
-                {
-                    labelInicial.Text += "6";
-                }
-            }
-            else if (checkBox2.Checked == true)
-            {
-
-                if (labelMeses.Text == "0")
-                {
-                    labelMeses.Text = "6";
-                }
-                else
-                {
-                    labelMeses.Text += "6";
-                }
-            }
-            else if (checkBox3.Checked == true)
-            {
-
-                if (labelJuros.Text == "0")
-                {
-                    labelJuros.Text = "6";
-                }
-                else
-                {
-                    labelJuros.Text += "6";
-                }
-            }
-            else if (checkBox4.Checked == true)
-            {
-                if (labelPeriodo.Text == "0")
-                {
-                    labelPeriodo.Text = "6";
-                }
-                else
-                {
-                    labelPeriodo.Text += "6";
-                }
-            }
-            calcular();
+            botao = 6;
+            adbotao();
         }
 
         private void button7_Click(object sender, EventArgs e)
         {
-            if (checkBox1.Checked == true)
-            {
-                if (labelInicial.Text == "0")
-                {
-                    labelInicial.Text = "7";
-                }
-                else
-                {
-                    labelInicial.Text += "7";
-                }
-            }
-            else if (checkBox2.Checked == true)
-            {
-
-                if (labelMeses.Text == "0")
-                {
-                    labelMeses.Text = "7";
-                }
-                else
-                {
-                    labelMeses.Text += "7";
-                }
-            }
-            else if (checkBox3.Checked == true)
-            {
-
-                if (labelJuros.Text == "0")
-                {
-                    labelJuros.Text = "7";
-                }
-                else
-                {
-                    labelJuros.Text += "7";
-                }
-            }
-            else if (checkBox4.Checked == true)
-            {
-                if (labelPeriodo.Text == "0")
-                {
-                    labelPeriodo.Text = "7";
-                }
-                else
-                {
-                    labelPeriodo.Text += "7";
-                }
-            }
-            calcular();
+            botao = 6;
+            adbotao();
         }
 
         private void button8_Click(object sender, EventArgs e)
         {
-            if (checkBox1.Checked == true)
-            {
-                if (labelInicial.Text == "0")
-                {
-                    labelInicial.Text = "8";
-                }
-                else
-                {
-                    labelInicial.Text += "8";
-                }
-            }
-            else if (checkBox2.Checked == true)
-            {
-
-                if (labelMeses.Text == "0")
-                {
-                    labelMeses.Text = "8";
-                }
-                else
-                {
-                    labelMeses.Text += "8";
-                }
-            }
-            else if (checkBox3.Checked == true)
-            {
-
-                if (labelJuros.Text == "0")
-                {
-                    labelJuros.Text = "8";
-                }
-                else
-                {
-                    labelJuros.Text += "8";
-                }
-            }
-            else if (checkBox4.Checked == true)
-            {
-                if (labelPeriodo.Text == "0")
-                {
-                    labelPeriodo.Text = "8";
-                }
-                else
-                {
-                    labelPeriodo.Text += "8";
-                }
-            }
-            calcular();
+            botao = 8;
+            adbotao();
         }
 
         private void button9_Click(object sender, EventArgs e)
         {
-            if (checkBox1.Checked == true)
-            {
-                if (labelInicial.Text == "0")
-                {
-                    labelInicial.Text = "9";
-                }
-                else
-                {
-                    labelInicial.Text += "9";
-                }
-            }
-            else if (checkBox2.Checked == true)
-            {
-
-                if (labelMeses.Text == "0")
-                {
-                    labelMeses.Text = "9";
-                }
-                else
-                {
-                    labelMeses.Text += "9";
-                }
-            }
-            else if (checkBox3.Checked == true)
-            {
-
-                if (labelJuros.Text == "0")
-                {
-                    labelJuros.Text = "9";
-                }
-                else
-                {
-                    labelJuros.Text += "9";
-                }
-            }
-            else if (checkBox4.Checked == true)
-            {
-                if (labelPeriodo.Text == "0")
-                {
-                    labelPeriodo.Text = "9";
-                }
-                else
-                {
-                    labelPeriodo.Text += "9";
-                }
-            }
-            calcular();
+            botao = 9;
+            adbotao();
         }
 
         private void buttonVirgula_Click(object sender, EventArgs e)
@@ -561,6 +112,58 @@ namespace calculadoravisual
 
                 labelMeses.Text += ",";
             }
+            calcular();
+        }
+
+        private void adbotao()
+        {
+            if (checkBox1.Checked == true)
+            {
+                if (labelInicial.Text == "0")
+                {
+                    labelInicial.Text = $"{botao}";
+                }
+                else
+                {
+                    labelInicial.Text += $"{botao}";
+                }
+            }
+            else if (checkBox2.Checked == true)
+            {
+
+                if (labelMeses.Text == "0")
+                {
+                    labelMeses.Text = $"{botao}";
+                }
+                else
+                {
+                    labelMeses.Text += $"{botao}";
+                }
+            }
+            else if (checkBox3.Checked == true)
+            {
+
+                if (labelJuros.Text == "0")
+                {
+                    labelJuros.Text = $"{botao}";
+                }
+                else
+                {
+                    labelJuros.Text += $"{botao}";
+                }
+            }
+            else if (checkBox4.Checked == true)
+            {
+                if (labelPeriodo.Text == "0")
+                {
+                    labelPeriodo.Text = $"{botao}";
+                }
+                else
+                {
+                    labelPeriodo.Text += $"{botao}";
+                }
+            }
+            botao = 0;
             calcular();
         }
 
@@ -739,11 +342,6 @@ namespace calculadoravisual
                 }
             labelResultado.Text = acumular.ToString("C2");
             
-        }
-
-        private void button10_Click(object sender, EventArgs e)
-        {
-
         }
 
         private void label10_Click(object sender, EventArgs e)

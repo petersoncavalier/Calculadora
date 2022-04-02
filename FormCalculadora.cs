@@ -12,8 +12,6 @@ namespace calculadoravisual
             InitializeComponent();
             labelAcumular.Text = "";
             labelC.Text = "";
-            Timer TimerForm = new Timer();
-            TimerForm.Show();
         }
 
 
@@ -80,18 +78,18 @@ namespace calculadoravisual
         }
 
          private void adbotao()
-        {
+         {
             if (labelResultado.Text == "0")
             {
-                labelResultado.Text = botao.ToString();
+                labelResultado.Text = $"{botao}";
             }
             else
             {
-                labelResultado.Text += botao.ToString();
+                labelResultado.Text += $"{botao}";
             }
 
             botao = 0;
-        }
+         }
 
 
 
@@ -266,7 +264,6 @@ namespace calculadoravisual
         {
             if (labelResultado.Text == "")
             {
-
             }
             else
             {
@@ -283,7 +280,7 @@ namespace calculadoravisual
         }
 
 
-
+                                                   
 
 
         private void button1X_Click_1(object sender, EventArgs e)
@@ -423,6 +420,12 @@ namespace calculadoravisual
         {
             Timer TimerForm = new Timer();
             TimerForm.Show();
+        }
+
+        private void buttonCronometro_Click(object sender, EventArgs e)
+        {
+            Cronometro CronometroForm = new Cronometro();
+            CronometroForm.Show();
         }
     }
 }

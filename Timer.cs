@@ -147,12 +147,12 @@ namespace calculadoravisual
             min = int.Parse(labelMin2.Text + labelMin1.Text);
             sec = int.Parse(labelSec2.Text + labelSec1.Text);
 
-            if (sec > 0)
+            if (sec > 0 || min > 0 || hrs > 0)
             {
                 buttonIniciar.Visible = true;
                 buttonIniciar.Enabled = true;
             }
-            if (sec <= 0)
+            if (sec <= 0 && min <= 0 && hrs <= 0)
             {
                 buttonIniciar.Visible = false;
                 buttonPausar.Visible = false;
@@ -194,44 +194,44 @@ namespace calculadoravisual
             sec2 = int.Parse(labelSec2.Text);
             sec1 = int.Parse(labelSec1.Text);
 
-            if (sec1 > 0)
+            if (hrs2 > 0 || hrs1 > 0 || min2 > 0 || min1 > 0 || sec2 > 0 || sec1 > 0)
             {
                 sec1--;
 
-                if (sec1 == 0 && sec2 > 0)
+                if (sec1 == -1 && sec2 > 0)
                 {
                     sec2--;
-                    sec1 += 9;
+                    sec1 = 9;
 
                     if (sec2 == 0 && min1 > 0)
                     {
                         min1--;
-                        sec2 += 6;
+                        sec2 = 5;
 
                         if (min1 == 0 && min2 > 0)
                         {
                             min2--;
-                            min1 += 9;
+                            min1 = 9;
 
-                            if (sec2 == 0 && min1 > 0)
+                            if (min2 == 0 && min1 > 0)
                             {
                                 min1--;
-                                sec2 += 6;
+                                sec2 = 5;
 
                                 if (min1 == 0 && min2 > 0)
                                 {
                                     min2--;
-                                    min1 += 9;
+                                    min1 = 9;
 
                                     if (min2 == 0 && hrs1 > 0)
                                     {
                                         hrs1--;
-                                        min2 += 6;
+                                        min2 = 5;
 
                                         if (hrs1 == 0 && hrs2 > 0)
                                         {
                                             hrs2--;
-                                            hrs1 += 9;
+                                            hrs1 = 9;
                                         }
                                     }
                                 }
@@ -269,6 +269,11 @@ namespace calculadoravisual
             sec = 0;
 
             calcular();
+        }
+
+        private void labelSec2_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

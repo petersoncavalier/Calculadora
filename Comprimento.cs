@@ -13,7 +13,7 @@ namespace calculadoravisual
     public partial class Comprimento : Form
     {
         double acumular = 0;
-        bool att;
+        int botao = 0;
        
 
         public Comprimento()
@@ -25,130 +25,73 @@ namespace calculadoravisual
 
         private void button0_Click(object sender, EventArgs e)
         {
-            if (labelEntrada.Text == "0")
-            {
-                labelEntrada.Text = "0";
-            }
-            else
-            {
-                labelEntrada.Text += "0";
-            }
-            recalcular();
+            botao = 0;
+            adbotao();
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            if (labelEntrada.Text == "0")
-            {
-                labelEntrada.Text = "1";
-            }
-            else
-            {
-                labelEntrada.Text += "1";
-            }
-            recalcular();
+            botao = 1;
+            adbotao();
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-            if (labelEntrada.Text == "0")
-            {
-                labelEntrada.Text = "2";
-            }
-            else
-            {
-                labelEntrada.Text += "2";
-            }
-            recalcular();
+            botao = 2;
+            adbotao();
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
-            if (labelEntrada.Text == "0")
-            {
-                labelEntrada.Text = "3";
-            }
-            else
-            {
-                labelEntrada.Text += "3";
-            }
-            recalcular();
+            botao = 3;
+            adbotao();
         }
 
         private void button4_Click(object sender, EventArgs e)
         {
-            if (labelEntrada.Text == "0")
-            {
-                labelEntrada.Text = "4";
-            }
-            else
-            {
-                labelEntrada.Text += "4";
-            }
-            recalcular();
+            botao = 4;
+            adbotao();
         }
 
         private void button5_Click(object sender, EventArgs e)
         {
-            if (labelEntrada.Text == "0")
-            {
-                labelEntrada.Text = "5";
-            }
-            else
-            {
-                labelEntrada.Text += "5";
-            }
-            recalcular();
+            botao = 5;
+            adbotao();
         }
 
         private void button6_Click(object sender, EventArgs e)
         {
-            if (labelEntrada.Text == "0")
-            {
-                labelEntrada.Text = "6";
-            }
-            else
-            {
-                labelEntrada.Text += "6";
-            }
-            recalcular();
+            botao = 6;
+            adbotao();
         }
 
         private void button7_Click(object sender, EventArgs e)
         {
-            if (labelEntrada.Text == "0")
-            {
-                labelEntrada.Text = "7";
-            }
-            else
-            {
-                labelEntrada.Text += "7";
-            }
-            recalcular();
+            botao = 7;
+            adbotao();
         }
 
         private void button8_Click(object sender, EventArgs e)
         {
-            if (labelEntrada.Text == "0")
-            {
-                labelEntrada.Text = "8";
-            }
-            else
-            {
-                labelEntrada.Text += "8";
-            }
-            recalcular();
+            botao = 8;
+            adbotao();
         }
 
         private void button9_Click(object sender, EventArgs e)
         {
+            botao = 9;
+            adbotao();
+        }
+
+        private void adbotao()
+        {
             if (labelEntrada.Text == "0")
             {
-                labelEntrada.Text = "9";
+                labelEntrada.Text = $"{botao}";
             }
             else
             {
-                labelEntrada.Text += "9";
+                labelEntrada.Text += $"{botao}";
             }
             recalcular();
         }
